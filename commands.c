@@ -860,11 +860,15 @@ void commands_process_packet(unsigned char *data, unsigned int len,
 		uint32_t mask = buffer_get_uint16(data, &ind2);
 
 		float rpy[3], acc[3], gyro[3], mag[3], q[4];
+		/*
 		imu_get_rpy(rpy);
 		imu_get_accel(acc);
 		imu_get_gyro(gyro);
 		imu_get_mag(mag);
 		imu_get_quaternions(q);
+		
+		*/
+
 
 		buffer_append_uint16(send_buffer, mask, &ind);
 
