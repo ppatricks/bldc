@@ -535,6 +535,7 @@ void commands_process_packet(unsigned char *data, unsigned int len,
 		break;
 
 	case COMM_NRF_START_PAIRING: {
+		/*		
 		int32_t ind = 0;
 		nrf_driver_start_pairing(buffer_get_int32(data, &ind));
 
@@ -543,6 +544,7 @@ void commands_process_packet(unsigned char *data, unsigned int len,
 		send_buffer[ind++] = packet_id;
 		send_buffer[ind++] = NRF_PAIR_STARTED;
 		reply_func(send_buffer, ind);
+		*/
 	} break;
 
 	case COMM_GPD_SET_FSW: {
@@ -813,6 +815,7 @@ void commands_process_packet(unsigned char *data, unsigned int len,
 	} break;
 
 	case COMM_EXT_NRF_PRESENT: {
+		/*		
 		if (!conf_general_permanent_nrf_found) {
 			nrf_driver_init_ext_nrf();
 			if (!nrf_driver_is_pairing()) {
@@ -826,6 +829,7 @@ void commands_process_packet(unsigned char *data, unsigned int len,
 				commands_send_packet_nrf(send_buffer, 5);
 			}
 		}
+		*/
 	} break;
 
 	case COMM_EXT_NRF_ESB_RX_DATA: {
@@ -860,16 +864,34 @@ void commands_process_packet(unsigned char *data, unsigned int len,
 		uint32_t mask = buffer_get_uint16(data, &ind2);
 
 		float rpy[3], acc[3], gyro[3], mag[3], q[4];
+		rpy[0] = 0.0;
+		rpy[1] = 0.0;
+		rpy[2] = 0.0;
+
+		acc[0] = 0.0;
+		acc[1] = 0.0;
+		acc[2] = 0.0;
+
+		gyro[0] = 0.0;
+		gyro[1] = 0.0;
+		gyro[2] = 0.0;
+	
+		mag[0] = 0.0;
+		mag[1] = 0.0;
+		mag[2] = 0.0;	
+		
+		q[0] = 0.0;
+		q[1] = 0.0;
+		q[2] = 0.0;	
+		
 		/*
 		imu_get_rpy(rpy);
 		imu_get_accel(acc);
 		imu_get_gyro(gyro);
 		imu_get_mag(mag);
 		imu_get_quaternions(q);
-		
 		*/
-
-
+			
 		buffer_append_uint16(send_buffer, mask, &ind);
 
 		if (mask & ((uint32_t)1 << 0)) {
