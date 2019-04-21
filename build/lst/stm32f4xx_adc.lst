@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cccm7nIq.s 			page 1
+ARM GAS  /tmp/ccVspVHd.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
   55              		.size	ADC_DeInit, .-ADC_DeInit
   56 001a 00BF     		.section	.text.ADC_Init,"ax",%progbits
   57              		.align	1
-ARM GAS  /tmp/cccm7nIq.s 			page 2
+ARM GAS  /tmp/ccVspVHd.s 			page 2
 
 
   58              		.p2align 4,,15
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  112 002c 43EA4403 		orr	r3, r3, r4, lsl #1
  113              	.LVL8:
  114              		.loc 1 283 0
-ARM GAS  /tmp/cccm7nIq.s 			page 3
+ARM GAS  /tmp/ccVspVHd.s 			page 3
 
 
  115 0030 8360     		str	r3, [r0, #8]
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  169 0004 0275     		strb	r2, [r0, #20]
  170              		.loc 1 314 0
  171 0006 0360     		str	r3, [r0]
-ARM GAS  /tmp/cccm7nIq.s 			page 4
+ARM GAS  /tmp/ccVspVHd.s 			page 4
 
 
  172              		.loc 1 317 0
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  226              	.LVL18:
  227              		.loc 1 369 0
  228 001a 4B60     		str	r3, [r1, #4]
-ARM GAS  /tmp/cccm7nIq.s 			page 5
+ARM GAS  /tmp/ccVspVHd.s 			page 5
 
 
  229              		.loc 1 370 0
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  283              		.cfi_startproc
  284              		@ args = 0, pretend = 0, frame = 0
  285              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/cccm7nIq.s 			page 6
+ARM GAS  /tmp/ccVspVHd.s 			page 6
 
 
  286              		@ link register save eliminated.
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  340              		.section	.text.ADC_AnalogWatchdogThresholdsConfig,"ax",%progbits
  341              		.align	1
  342              		.p2align 4,,15
-ARM GAS  /tmp/cccm7nIq.s 			page 7
+ARM GAS  /tmp/ccVspVHd.s 			page 7
 
 
  343              		.global	ADC_AnalogWatchdogThresholdsConfig
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  397              	.LFE120:
  398              		.size	ADC_AnalogWatchdogSingleChannelConfig, .-ADC_AnalogWatchdogSingleChannelConfig
  399              		.section	.text.ADC_TempSensorVrefintCmd,"ax",%progbits
-ARM GAS  /tmp/cccm7nIq.s 			page 8
+ARM GAS  /tmp/ccVspVHd.s 			page 8
 
 
  400              		.align	1
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  454              	.LVL32:
  455              		.loc 1 623 0
  456 0000 054A     		ldr	r2, .L31
-ARM GAS  /tmp/cccm7nIq.s 			page 9
+ARM GAS  /tmp/ccVspVHd.s 			page 9
 
 
  457 0002 5368     		ldr	r3, [r2, #4]
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  511 0010 0726     		movs	r6, #7
  512 0012 A640     		lsls	r6, r6, r4
  513              	.LVL35:
-ARM GAS  /tmp/cccm7nIq.s 			page 10
+ARM GAS  /tmp/ccVspVHd.s 			page 10
 
 
  514              		.loc 1 738 0
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  568              		.loc 1 749 0
  569 0044 0469     		ldr	r4, [r0, #16]
  570              	.LVL46:
-ARM GAS  /tmp/cccm7nIq.s 			page 11
+ARM GAS  /tmp/ccVspVHd.s 			page 11
 
 
  571              		.loc 1 752 0
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  625 0072 073A     		subs	r2, r2, #7
  626              	.LVL58:
  627 0074 02EB8202 		add	r2, r2, r2, lsl #2
-ARM GAS  /tmp/cccm7nIq.s 			page 12
+ARM GAS  /tmp/ccVspVHd.s 			page 12
 
 
  628              		.loc 1 791 0
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  682 000a 00BF     		.section	.text.ADC_GetSoftwareStartConvStatus,"ax",%progbits
  683              		.align	1
  684              		.p2align 4,,15
-ARM GAS  /tmp/cccm7nIq.s 			page 13
+ARM GAS  /tmp/ccVspVHd.s 			page 13
 
 
  685              		.global	ADC_GetSoftwareStartConvStatus
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  739 0012 7047     		bx	lr
  740              		.cfi_endproc
  741              	.LFE126:
-ARM GAS  /tmp/cccm7nIq.s 			page 14
+ARM GAS  /tmp/ccVspVHd.s 			page 14
 
 
  742              		.size	ADC_EOCOnEachRegularChannelCmd, .-ADC_EOCOnEachRegularChannelCmd
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  796              		.loc 1 941 0
  797 0002 4168     		ldr	r1, [r0, #4]
  798              	.LVL71:
-ARM GAS  /tmp/cccm7nIq.s 			page 15
+ARM GAS  /tmp/ccVspVHd.s 			page 15
 
 
  799              		.loc 1 944 0
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  853              		.fpu fpv4-sp-d16
  854              		.type	ADC_GetConversionValue, %function
  855              	ADC_GetConversionValue:
-ARM GAS  /tmp/cccm7nIq.s 			page 16
+ARM GAS  /tmp/ccVspVHd.s 			page 16
 
 
  856              	.LFB130:
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  910              	.LFB132:
  911              		.loc 1 1054 0
  912              		.cfi_startproc
-ARM GAS  /tmp/cccm7nIq.s 			page 17
+ARM GAS  /tmp/ccVspVHd.s 			page 17
 
 
  913              		@ args = 0, pretend = 0, frame = 0
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  967              		.size	ADC_DMARequestAfterLastTransferCmd, .-ADC_DMARequestAfterLastTransferCmd
  968              		.section	.text.ADC_MultiModeDMARequestAfterLastTransferCmd,"ax",%progbits
  969              		.align	1
-ARM GAS  /tmp/cccm7nIq.s 			page 18
+ARM GAS  /tmp/ccVspVHd.s 			page 18
 
 
  970              		.p2align 4,,15
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  1024              		.loc 1 1200 0
  1025 0000 0929     		cmp	r1, #9
  1026              		.loc 1 1192 0
-ARM GAS  /tmp/cccm7nIq.s 			page 19
+ARM GAS  /tmp/ccVspVHd.s 			page 19
 
 
  1027 0002 70B4     		push	{r4, r5, r6}
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  1081 0036 8163     		str	r1, [r0, #56]
  1082              		.loc 1 1245 0
  1083 0038 70BC     		pop	{r4, r5, r6}
-ARM GAS  /tmp/cccm7nIq.s 			page 20
+ARM GAS  /tmp/ccVspVHd.s 			page 20
 
 
  1084              		.cfi_remember_state
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  1138 0002 816B     		ldr	r1, [r0, #56]
  1139              	.LVL100:
  1140              		.loc 1 1266 0
-ARM GAS  /tmp/cccm7nIq.s 			page 21
+ARM GAS  /tmp/ccVspVHd.s 			page 21
 
 
  1141 0004 21F44011 		bic	r1, r1, #3145728
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  1195              		.p2align 4,,15
  1196              		.global	ADC_ExternalTrigInjectedConvConfig
  1197              		.syntax unified
-ARM GAS  /tmp/cccm7nIq.s 			page 22
+ARM GAS  /tmp/ccVspVHd.s 			page 22
 
 
  1198              		.thumb
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  1252              		.loc 1 1374 0
  1253 0008 8160     		str	r1, [r0, #8]
  1254              		.loc 1 1375 0
-ARM GAS  /tmp/cccm7nIq.s 			page 23
+ARM GAS  /tmp/ccVspVHd.s 			page 23
 
 
  1255 000a 7047     		bx	lr
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  1309              		.cfi_endproc
  1310              	.LFE141:
  1311              		.size	ADC_GetSoftwareStartInjectedConvCmdStatus, .-ADC_GetSoftwareStartInjectedConvCmdStatus
-ARM GAS  /tmp/cccm7nIq.s 			page 24
+ARM GAS  /tmp/ccVspVHd.s 			page 24
 
 
  1312              		.section	.text.ADC_AutoInjectedConvCmd,"ax",%progbits
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  1366 0002 19B9     		cbnz	r1, .L94
  1367              		.loc 1 1463 0
  1368 0004 23F48053 		bic	r3, r3, #4096
-ARM GAS  /tmp/cccm7nIq.s 			page 25
+ARM GAS  /tmp/ccVspVHd.s 			page 25
 
 
  1369 0008 4360     		str	r3, [r0, #4]
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  1423 001a 00BF     		.section	.text.ADC_ITConfig,"ax",%progbits
  1424              		.align	1
  1425              		.p2align 4,,15
-ARM GAS  /tmp/cccm7nIq.s 			page 26
+ARM GAS  /tmp/ccVspVHd.s 			page 26
 
 
  1426              		.global	ADC_ITConfig
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  1480              		@ args = 0, pretend = 0, frame = 0
  1481              		@ frame_needed = 0, uses_anonymous_args = 0
  1482              		@ link register save eliminated.
-ARM GAS  /tmp/cccm7nIq.s 			page 27
+ARM GAS  /tmp/ccVspVHd.s 			page 27
 
 
  1483              	.LVL128:
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  1537              		@ frame_needed = 0, uses_anonymous_args = 0
  1538              		@ link register save eliminated.
  1539              	.LVL133:
-ARM GAS  /tmp/cccm7nIq.s 			page 28
+ARM GAS  /tmp/ccVspVHd.s 			page 28
 
 
  1540              		.loc 1 1691 0
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  1594              	.Letext0:
  1595              		.file 2 "/usr/arm-none-eabi/include/machine/_default_types.h"
  1596              		.file 3 "/usr/arm-none-eabi/include/sys/_stdint.h"
-ARM GAS  /tmp/cccm7nIq.s 			page 29
+ARM GAS  /tmp/ccVspVHd.s 			page 29
 
 
  1597              		.file 4 "ChibiOS_3.0.2/os/ext/CMSIS/include/core_cm4.h"
@@ -1697,7 +1697,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  1610 000c 5B000000 		.4byte	.LASF116
  1611 0010 0C       		.byte	0xc
  1612 0011 AD010000 		.4byte	.LASF117
- 1613 0015 67040000 		.4byte	.LASF118
+ 1613 0015 F6030000 		.4byte	.LASF118
  1614 0019 00000000 		.4byte	.Ldebug_ranges0+0
  1615 001d 00000000 		.4byte	0
  1616 0021 00000000 		.4byte	.Ldebug_line0
@@ -1713,22 +1713,22 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  1626 0037 02       		.uleb128 0x2
  1627 0038 01       		.byte	0x1
  1628 0039 08       		.byte	0x8
- 1629 003a 95060000 		.4byte	.LASF1
+ 1629 003a 7B060000 		.4byte	.LASF1
  1630 003e 02       		.uleb128 0x2
  1631 003f 02       		.byte	0x2
  1632 0040 05       		.byte	0x5
- 1633 0041 A3060000 		.4byte	.LASF2
+ 1633 0041 89060000 		.4byte	.LASF2
  1634 0045 03       		.uleb128 0x3
- 1635 0046 76070000 		.4byte	.LASF4
+ 1635 0046 75070000 		.4byte	.LASF4
  1636 004a 02       		.byte	0x2
  1637 004b 39       		.byte	0x39
  1638 004c 50000000 		.4byte	0x50
  1639 0050 02       		.uleb128 0x2
  1640 0051 02       		.byte	0x2
  1641 0052 07       		.byte	0x7
- 1642 0053 3F040000 		.4byte	.LASF5
+ 1642 0053 3D040000 		.4byte	.LASF5
  1643 0057 03       		.uleb128 0x3
- 1644 0058 9D070000 		.4byte	.LASF6
+ 1644 0058 9C070000 		.4byte	.LASF6
  1645 005c 02       		.byte	0x2
  1646 005d 4D       		.byte	0x4d
  1647 005e 62000000 		.4byte	0x62
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  1651 0065 BD020000 		.4byte	.LASF7
  1652 0069 03       		.uleb128 0x3
  1653 006a 1D030000 		.4byte	.LASF8
-ARM GAS  /tmp/cccm7nIq.s 			page 30
+ARM GAS  /tmp/ccVspVHd.s 			page 30
 
 
  1654 006e 02       		.byte	0x2
@@ -1765,7 +1765,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  1675 0092 07       		.byte	0x7
  1676 0093 BA030000 		.4byte	.LASF12
  1677 0097 03       		.uleb128 0x3
- 1678 0098 26080000 		.4byte	.LASF13
+ 1678 0098 25080000 		.4byte	.LASF13
  1679 009c 03       		.byte	0x3
  1680 009d 18       		.byte	0x18
  1681 009e 2C000000 		.4byte	0x2c
@@ -1775,14 +1775,14 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  1685 00a8 24       		.byte	0x24
  1686 00a9 45000000 		.4byte	0x45
  1687 00ad 03       		.uleb128 0x3
- 1688 00ae 8D060000 		.4byte	.LASF15
+ 1688 00ae 73060000 		.4byte	.LASF15
  1689 00b2 03       		.byte	0x3
  1690 00b3 2C       		.byte	0x2c
  1691 00b4 57000000 		.4byte	0x57
  1692 00b8 05       		.uleb128 0x5
  1693 00b9 AD000000 		.4byte	0xad
  1694 00bd 03       		.uleb128 0x3
- 1695 00be 1F070000 		.4byte	.LASF16
+ 1695 00be 1E070000 		.4byte	.LASF16
  1696 00c2 03       		.byte	0x3
  1697 00c3 30       		.byte	0x30
  1698 00c4 69000000 		.4byte	0x69
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  1708 00de 05       		.byte	0x5
  1709 00df 4C       		.byte	0x4c
  1710 00e0 BD000000 		.4byte	0xbd
-ARM GAS  /tmp/cccm7nIq.s 			page 31
+ARM GAS  /tmp/ccVspVHd.s 			page 31
 
 
  1711 00e4 08       		.uleb128 0x8
@@ -1825,7 +1825,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  1732 010a C8000000 		.4byte	0xc8
  1733 010e 08       		.byte	0x8
  1734 010f 0A       		.uleb128 0xa
- 1735 0110 92050000 		.4byte	.LASF19
+ 1735 0110 78050000 		.4byte	.LASF19
  1736 0114 06       		.byte	0x6
  1737 0115 C9       		.byte	0xc9
  1738 0116 C8000000 		.4byte	0xc8
@@ -1843,22 +1843,22 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  1750 012e C8000000 		.4byte	0xc8
  1751 0132 14       		.byte	0x14
  1752 0133 0A       		.uleb128 0xa
- 1753 0134 ED040000 		.4byte	.LASF22
+ 1753 0134 D3040000 		.4byte	.LASF22
  1754 0138 06       		.byte	0x6
  1755 0139 CC       		.byte	0xcc
  1756 013a C8000000 		.4byte	0xc8
  1757 013e 18       		.byte	0x18
  1758 013f 0A       		.uleb128 0xa
- 1759 0140 F3040000 		.4byte	.LASF23
+ 1759 0140 D9040000 		.4byte	.LASF23
  1760 0144 06       		.byte	0x6
  1761 0145 CD       		.byte	0xcd
  1762 0146 C8000000 		.4byte	0xc8
  1763 014a 1C       		.byte	0x1c
  1764 014b 0A       		.uleb128 0xa
- 1765 014c F9060000 		.4byte	.LASF24
+ 1765 014c F8060000 		.4byte	.LASF24
  1766 0150 06       		.byte	0x6
  1767 0151 CE       		.byte	0xce
-ARM GAS  /tmp/cccm7nIq.s 			page 32
+ARM GAS  /tmp/ccVspVHd.s 			page 32
 
 
  1768 0152 C8000000 		.4byte	0xc8
@@ -1876,19 +1876,19 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  1780 016a C8000000 		.4byte	0xc8
  1781 016e 28       		.byte	0x28
  1782 016f 0A       		.uleb128 0xa
- 1783 0170 D4050000 		.4byte	.LASF25
+ 1783 0170 BA050000 		.4byte	.LASF25
  1784 0174 06       		.byte	0x6
  1785 0175 D1       		.byte	0xd1
  1786 0176 C8000000 		.4byte	0xc8
  1787 017a 2C       		.byte	0x2c
  1788 017b 0A       		.uleb128 0xa
- 1789 017c D9050000 		.4byte	.LASF26
+ 1789 017c BF050000 		.4byte	.LASF26
  1790 0180 06       		.byte	0x6
  1791 0181 D2       		.byte	0xd2
  1792 0182 C8000000 		.4byte	0xc8
  1793 0186 30       		.byte	0x30
  1794 0187 0A       		.uleb128 0xa
- 1795 0188 DE050000 		.4byte	.LASF27
+ 1795 0188 C4050000 		.4byte	.LASF27
  1796 018c 06       		.byte	0x6
  1797 018d D3       		.byte	0xd3
  1798 018e C8000000 		.4byte	0xc8
@@ -1900,28 +1900,28 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  1804 019a C8000000 		.4byte	0xc8
  1805 019e 38       		.byte	0x38
  1806 019f 0A       		.uleb128 0xa
- 1807 01a0 40080000 		.4byte	.LASF29
+ 1807 01a0 3F080000 		.4byte	.LASF29
  1808 01a4 06       		.byte	0x6
  1809 01a5 D5       		.byte	0xd5
  1810 01a6 C8000000 		.4byte	0xc8
  1811 01aa 3C       		.byte	0x3c
  1812 01ab 0A       		.uleb128 0xa
- 1813 01ac 45080000 		.4byte	.LASF30
+ 1813 01ac 44080000 		.4byte	.LASF30
  1814 01b0 06       		.byte	0x6
  1815 01b1 D6       		.byte	0xd6
  1816 01b2 C8000000 		.4byte	0xc8
  1817 01b6 40       		.byte	0x40
  1818 01b7 0A       		.uleb128 0xa
- 1819 01b8 4A080000 		.4byte	.LASF31
+ 1819 01b8 49080000 		.4byte	.LASF31
  1820 01bc 06       		.byte	0x6
  1821 01bd D7       		.byte	0xd7
  1822 01be C8000000 		.4byte	0xc8
  1823 01c2 44       		.byte	0x44
  1824 01c3 0A       		.uleb128 0xa
-ARM GAS  /tmp/cccm7nIq.s 			page 33
+ARM GAS  /tmp/ccVspVHd.s 			page 33
 
 
- 1825 01c4 4F080000 		.4byte	.LASF32
+ 1825 01c4 4E080000 		.4byte	.LASF32
  1826 01c8 06       		.byte	0x6
  1827 01c9 D8       		.byte	0xd8
  1828 01ca C8000000 		.4byte	0xc8
@@ -1963,7 +1963,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  1864 0211 08       		.byte	0x8
  1865 0212 00       		.byte	0
  1866 0213 03       		.uleb128 0x3
- 1867 0214 52050000 		.4byte	.LASF34
+ 1867 0214 38050000 		.4byte	.LASF34
  1868 0218 06       		.byte	0x6
  1869 0219 E2       		.byte	0xe2
  1870 021a E6010000 		.4byte	0x1e6
@@ -1975,10 +1975,10 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  1876 0226 B9       		.byte	0xb9
  1877 0227 38020000 		.4byte	0x238
  1878 022b 0C       		.uleb128 0xc
- 1879 022c 11060000 		.4byte	.LASF35
+ 1879 022c F7050000 		.4byte	.LASF35
  1880 0230 00       		.byte	0
  1881 0231 0D       		.uleb128 0xd
-ARM GAS  /tmp/cccm7nIq.s 			page 34
+ARM GAS  /tmp/ccVspVHd.s 			page 34
 
 
  1882 0232 53455400 		.ascii	"SET\000"
@@ -2019,13 +2019,13 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  1917 0276 35       		.byte	0x35
  1918 0277 D0020000 		.4byte	0x2d0
  1919 027b 0A       		.uleb128 0xa
- 1920 027c 5E080000 		.4byte	.LASF41
+ 1920 027c 5D080000 		.4byte	.LASF41
  1921 0280 08       		.byte	0x8
  1922 0281 37       		.byte	0x37
  1923 0282 BD000000 		.4byte	0xbd
  1924 0286 00       		.byte	0
  1925 0287 0A       		.uleb128 0xa
- 1926 0288 E8060000 		.4byte	.LASF42
+ 1926 0288 E7060000 		.4byte	.LASF42
  1927 028c 08       		.byte	0x8
  1928 028d 39       		.byte	0x39
  1929 028e 68020000 		.4byte	0x268
@@ -2037,8 +2037,8 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  1935 029a 68020000 		.4byte	0x268
  1936 029e 05       		.byte	0x5
  1937 029f 0A       		.uleb128 0xa
- 1938 02a0 CF060000 		.4byte	.LASF44
-ARM GAS  /tmp/cccm7nIq.s 			page 35
+ 1938 02a0 CE060000 		.4byte	.LASF44
+ARM GAS  /tmp/ccVspVHd.s 			page 35
 
 
  1939 02a4 08       		.byte	0x8
@@ -2052,7 +2052,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  1947 02b2 BD000000 		.4byte	0xbd
  1948 02b6 0C       		.byte	0xc
  1949 02b7 0A       		.uleb128 0xa
- 1950 02b8 28070000 		.4byte	.LASF46
+ 1950 02b8 27070000 		.4byte	.LASF46
  1951 02bc 08       		.byte	0x8
  1952 02bd 48       		.byte	0x48
  1953 02be BD000000 		.4byte	0xbd
@@ -2065,7 +2065,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  1960 02ce 14       		.byte	0x14
  1961 02cf 00       		.byte	0
  1962 02d0 03       		.uleb128 0x3
- 1963 02d1 FF060000 		.4byte	.LASF48
+ 1963 02d1 FE060000 		.4byte	.LASF48
  1964 02d5 08       		.byte	0x8
  1965 02d6 4F       		.byte	0x4f
  1966 02d7 73020000 		.4byte	0x273
@@ -2075,30 +2075,30 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  1970 02de 54       		.byte	0x54
  1971 02df 14030000 		.4byte	0x314
  1972 02e3 0A       		.uleb128 0xa
- 1973 02e4 6D070000 		.4byte	.LASF49
+ 1973 02e4 6C070000 		.4byte	.LASF49
  1974 02e8 08       		.byte	0x8
  1975 02e9 56       		.byte	0x56
  1976 02ea BD000000 		.4byte	0xbd
  1977 02ee 00       		.byte	0
  1978 02ef 0A       		.uleb128 0xa
- 1979 02f0 C3080000 		.4byte	.LASF50
+ 1979 02f0 C2080000 		.4byte	.LASF50
  1980 02f4 08       		.byte	0x8
  1981 02f5 59       		.byte	0x59
  1982 02f6 BD000000 		.4byte	0xbd
  1983 02fa 04       		.byte	0x4
  1984 02fb 0A       		.uleb128 0xa
- 1985 02fc 0F040000 		.4byte	.LASF51
+ 1985 02fc 0D040000 		.4byte	.LASF51
  1986 0300 08       		.byte	0x8
  1987 0301 5C       		.byte	0x5c
  1988 0302 BD000000 		.4byte	0xbd
  1989 0306 08       		.byte	0x8
  1990 0307 0A       		.uleb128 0xa
- 1991 0308 A2080000 		.4byte	.LASF52
+ 1991 0308 A1080000 		.4byte	.LASF52
  1992 030c 08       		.byte	0x8
  1993 030d 60       		.byte	0x60
  1994 030e BD000000 		.4byte	0xbd
  1995 0312 0C       		.byte	0xc
-ARM GAS  /tmp/cccm7nIq.s 			page 36
+ARM GAS  /tmp/ccVspVHd.s 			page 36
 
 
  1996 0313 00       		.byte	0
@@ -2108,7 +2108,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  2000 031a 64       		.byte	0x64
  2001 031b DB020000 		.4byte	0x2db
  2002 031f 0E       		.uleb128 0xe
- 2003 0320 EA050000 		.4byte	.LASF59
+ 2003 0320 D0050000 		.4byte	.LASF59
  2004 0324 01       		.byte	0x1
  2005 0325 B706     		.2byte	0x6b7
  2006 0327 00000000 		.4byte	.LFB149
@@ -2130,7 +2130,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  2022 034b A2000000 		.4byte	0xa2
  2023 034f 00000000 		.4byte	.LLST47
  2024 0353 11       		.uleb128 0x11
- 2025 0354 E3050000 		.4byte	.LASF56
+ 2025 0354 C9050000 		.4byte	.LASF56
  2026 0358 01       		.byte	0x1
  2027 0359 B906     		.2byte	0x6b9
  2028 035b 97000000 		.4byte	0x97
@@ -2140,7 +2140,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  2032 0365 04       		.byte	0x4
  2033 0366 DB010000 		.4byte	0x1db
  2034 036a 13       		.uleb128 0x13
- 2035 036b 0F070000 		.4byte	.LASF62
+ 2035 036b 0E070000 		.4byte	.LASF62
  2036 036f 01       		.byte	0x1
  2037 0370 8E06     		.2byte	0x68e
  2038 0372 43020000 		.4byte	0x243
@@ -2158,33 +2158,33 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  2050 0394 10       		.uleb128 0x10
  2051 0395 09000000 		.4byte	.LASF55
  2052 0399 01       		.byte	0x1
-ARM GAS  /tmp/cccm7nIq.s 			page 37
+ARM GAS  /tmp/ccVspVHd.s 			page 37
 
 
  2053 039a 8E06     		.2byte	0x68e
  2054 039c A2000000 		.4byte	0xa2
  2055 03a0 69000000 		.4byte	.LLST43
  2056 03a4 11       		.uleb128 0x11
- 2057 03a5 54080000 		.4byte	.LASF57
+ 2057 03a5 53080000 		.4byte	.LASF57
  2058 03a9 01       		.byte	0x1
  2059 03aa 9006     		.2byte	0x690
  2060 03ac 43020000 		.4byte	0x243
  2061 03b0 8A000000 		.4byte	.LLST44
  2062 03b4 11       		.uleb128 0x11
- 2063 03b5 E3050000 		.4byte	.LASF56
+ 2063 03b5 C9050000 		.4byte	.LASF56
  2064 03b9 01       		.byte	0x1
  2065 03ba 9106     		.2byte	0x691
  2066 03bc BD000000 		.4byte	0xbd
  2067 03c0 A9000000 		.4byte	.LLST45
  2068 03c4 11       		.uleb128 0x11
- 2069 03c5 90070000 		.4byte	.LASF58
+ 2069 03c5 8F070000 		.4byte	.LASF58
  2070 03c9 01       		.byte	0x1
  2071 03ca 9106     		.2byte	0x691
  2072 03cc BD000000 		.4byte	0xbd
  2073 03d0 D8000000 		.4byte	.LLST46
  2074 03d4 00       		.byte	0
  2075 03d5 0E       		.uleb128 0xe
- 2076 03d6 DF040000 		.4byte	.LASF60
+ 2076 03d6 C5040000 		.4byte	.LASF60
  2077 03da 01       		.byte	0x1
  2078 03db 7906     		.2byte	0x679
  2079 03dd 00000000 		.4byte	.LFB147
@@ -2207,7 +2207,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  2096 0405 17010000 		.4byte	.LLST41
  2097 0409 00       		.byte	0
  2098 040a 13       		.uleb128 0x13
- 2099 040b 2E080000 		.4byte	.LASF63
+ 2099 040b 2D080000 		.4byte	.LASF63
  2100 040f 01       		.byte	0x1
  2101 0410 5606     		.2byte	0x656
  2102 0412 38020000 		.4byte	0x238
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  2107 0420 53040000 		.4byte	0x453
  2108 0424 10       		.uleb128 0x10
  2109 0425 56000000 		.4byte	.LASF54
-ARM GAS  /tmp/cccm7nIq.s 			page 38
+ARM GAS  /tmp/ccVspVHd.s 			page 38
 
 
  2110 0429 01       		.byte	0x1
@@ -2233,7 +2233,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  2119 0440 01       		.uleb128 0x1
  2120 0441 51       		.byte	0x51
  2121 0442 11       		.uleb128 0x11
- 2122 0443 54080000 		.4byte	.LASF57
+ 2122 0443 53080000 		.4byte	.LASF57
  2123 0447 01       		.byte	0x1
  2124 0448 5806     		.2byte	0x658
  2125 044a 38020000 		.4byte	0x238
@@ -2269,16 +2269,16 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  2155 0493 01       		.uleb128 0x1
  2156 0494 52       		.byte	0x52
  2157 0495 11       		.uleb128 0x11
- 2158 0496 E3050000 		.4byte	.LASF56
+ 2158 0496 C9050000 		.4byte	.LASF56
  2159 049a 01       		.byte	0x1
  2160 049b 3306     		.2byte	0x633
  2161 049d BD000000 		.4byte	0xbd
  2162 04a1 A3010000 		.4byte	.LLST38
  2163 04a5 00       		.byte	0
  2164 04a6 13       		.uleb128 0x13
- 2165 04a7 6D080000 		.4byte	.LASF66
+ 2165 04a7 6C080000 		.4byte	.LASF66
  2166 04ab 01       		.byte	0x1
-ARM GAS  /tmp/cccm7nIq.s 			page 39
+ARM GAS  /tmp/ccVspVHd.s 			page 39
 
 
  2167 04ac C605     		.2byte	0x5c6
@@ -2295,7 +2295,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  2178 04c8 64030000 		.4byte	0x364
  2179 04cc FE010000 		.4byte	.LLST35
  2180 04d0 10       		.uleb128 0x10
- 2181 04d1 17060000 		.4byte	.LASF67
+ 2181 04d1 FD050000 		.4byte	.LASF67
  2182 04d5 01       		.byte	0x1
  2183 04d6 C605     		.2byte	0x5c6
  2184 04d8 97000000 		.4byte	0x97
@@ -2334,11 +2334,11 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  2217 0521 51       		.byte	0x51
  2218 0522 00       		.byte	0
  2219 0523 0E       		.uleb128 0xe
- 2220 0524 36070000 		.4byte	.LASF69
+ 2220 0524 35070000 		.4byte	.LASF69
  2221 0528 01       		.byte	0x1
  2222 0529 9005     		.2byte	0x590
  2223 052b 00000000 		.4byte	.LFB142
-ARM GAS  /tmp/cccm7nIq.s 			page 40
+ARM GAS  /tmp/ccVspVHd.s 			page 40
 
 
  2224 052f 14000000 		.4byte	.LFE142-.LFB142
@@ -2361,7 +2361,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  2241 0554 51       		.byte	0x51
  2242 0555 00       		.byte	0
  2243 0556 13       		.uleb128 0x13
- 2244 0557 2B060000 		.4byte	.LASF70
+ 2244 0557 11060000 		.4byte	.LASF70
  2245 055b 01       		.byte	0x1
  2246 055c 7305     		.2byte	0x573
  2247 055e 38020000 		.4byte	0x238
@@ -2377,14 +2377,14 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  2257 0578 64030000 		.4byte	0x364
  2258 057c 40020000 		.4byte	.LLST33
  2259 0580 11       		.uleb128 0x11
- 2260 0581 54080000 		.4byte	.LASF57
+ 2260 0581 53080000 		.4byte	.LASF57
  2261 0585 01       		.byte	0x1
  2262 0586 7505     		.2byte	0x575
  2263 0588 38020000 		.4byte	0x238
  2264 058c 61020000 		.4byte	.LLST34
  2265 0590 00       		.byte	0
  2266 0591 0E       		.uleb128 0xe
- 2267 0592 21040000 		.4byte	.LASF71
+ 2267 0592 1F040000 		.4byte	.LASF71
  2268 0596 01       		.byte	0x1
  2269 0597 6605     		.2byte	0x566
  2270 0599 00000000 		.4byte	.LFB140
@@ -2398,13 +2398,13 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  2278 05ad 6605     		.2byte	0x566
  2279 05af 64030000 		.4byte	0x364
  2280 05b3 01       		.uleb128 0x1
-ARM GAS  /tmp/cccm7nIq.s 			page 41
+ARM GAS  /tmp/ccVspVHd.s 			page 41
 
 
  2281 05b4 50       		.byte	0x50
  2282 05b5 00       		.byte	0
  2283 05b6 0E       		.uleb128 0xe
- 2284 05b7 F9040000 		.4byte	.LASF72
+ 2284 05b7 DF040000 		.4byte	.LASF72
  2285 05bb 01       		.byte	0x1
  2286 05bc 5105     		.2byte	0x551
  2287 05be 00000000 		.4byte	.LFB139
@@ -2433,7 +2433,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  2310 05f6 A9020000 		.4byte	.LLST32
  2311 05fa 00       		.byte	0
  2312 05fb 0E       		.uleb128 0xe
- 2313 05fc 55060000 		.4byte	.LASF75
+ 2313 05fc 3B060000 		.4byte	.LASF75
  2314 0600 01       		.byte	0x1
  2315 0601 2F05     		.2byte	0x52f
  2316 0603 00000000 		.4byte	.LFB138
@@ -2449,7 +2449,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  2326 061d 01       		.uleb128 0x1
  2327 061e 50       		.byte	0x50
  2328 061f 10       		.uleb128 0x10
- 2329 0620 65050000 		.4byte	.LASF76
+ 2329 0620 4B050000 		.4byte	.LASF76
  2330 0624 01       		.byte	0x1
  2331 0625 2F05     		.2byte	0x52f
  2332 0627 BD000000 		.4byte	0xbd
@@ -2458,14 +2458,14 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  2335 0630 80020000 		.4byte	.LASF74
  2336 0634 01       		.byte	0x1
  2337 0635 3105     		.2byte	0x531
-ARM GAS  /tmp/cccm7nIq.s 			page 42
+ARM GAS  /tmp/ccVspVHd.s 			page 42
 
 
  2338 0637 BD000000 		.4byte	0xbd
  2339 063b F4020000 		.4byte	.LLST30
  2340 063f 00       		.byte	0
  2341 0640 0E       		.uleb128 0xe
- 2342 0641 BE050000 		.4byte	.LASF77
+ 2342 0641 A4050000 		.4byte	.LASF77
  2343 0645 01       		.byte	0x1
  2344 0646 0905     		.2byte	0x509
  2345 0648 00000000 		.4byte	.LFB137
@@ -2481,13 +2481,13 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  2355 0662 01       		.uleb128 0x1
  2356 0663 50       		.byte	0x50
  2357 0664 10       		.uleb128 0x10
- 2358 0665 17060000 		.4byte	.LASF67
+ 2358 0665 FD050000 		.4byte	.LASF67
  2359 0669 01       		.byte	0x1
  2360 066a 0905     		.2byte	0x509
  2361 066c 97000000 		.4byte	0x97
  2362 0670 1E030000 		.4byte	.LLST28
  2363 0674 0F       		.uleb128 0xf
- 2364 0675 1F080000 		.4byte	.LASF78
+ 2364 0675 1E080000 		.4byte	.LASF78
  2365 0679 01       		.byte	0x1
  2366 067a 0905     		.2byte	0x509
  2367 067c A2000000 		.4byte	0xa2
@@ -2503,7 +2503,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  2377 0690 7C       		.sleb128 -4
  2378 0691 00       		.byte	0
  2379 0692 0E       		.uleb128 0xe
- 2380 0693 AD060000 		.4byte	.LASF79
+ 2380 0693 AC060000 		.4byte	.LASF79
  2381 0697 01       		.byte	0x1
  2382 0698 E604     		.2byte	0x4e6
  2383 069a 00000000 		.4byte	.LFB136
@@ -2518,23 +2518,23 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  2392 06b0 64030000 		.4byte	0x364
  2393 06b4 01       		.uleb128 0x1
  2394 06b5 50       		.byte	0x50
-ARM GAS  /tmp/cccm7nIq.s 			page 43
+ARM GAS  /tmp/ccVspVHd.s 			page 43
 
 
  2395 06b6 10       		.uleb128 0x10
- 2396 06b7 F2070000 		.4byte	.LASF80
+ 2396 06b7 F1070000 		.4byte	.LASF80
  2397 06bb 01       		.byte	0x1
  2398 06bc E604     		.2byte	0x4e6
  2399 06be 97000000 		.4byte	0x97
  2400 06c2 3F030000 		.4byte	.LLST25
  2401 06c6 11       		.uleb128 0x11
- 2402 06c7 A6040000 		.4byte	.LASF81
+ 2402 06c7 8C040000 		.4byte	.LASF81
  2403 06cb 01       		.byte	0x1
  2404 06cc E804     		.2byte	0x4e8
  2405 06ce BD000000 		.4byte	0xbd
  2406 06d2 60030000 		.4byte	.LLST26
  2407 06d6 11       		.uleb128 0x11
- 2408 06d7 AE040000 		.4byte	.LASF82
+ 2408 06d7 94040000 		.4byte	.LASF82
  2409 06db 01       		.byte	0x1
  2410 06dc E904     		.2byte	0x4e9
  2411 06de BD000000 		.4byte	0xbd
@@ -2557,47 +2557,47 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  2428 0709 01       		.uleb128 0x1
  2429 070a 50       		.byte	0x50
  2430 070b 10       		.uleb128 0x10
- 2431 070c 05060000 		.4byte	.LASF84
+ 2431 070c EB050000 		.4byte	.LASF84
  2432 0710 01       		.byte	0x1
  2433 0711 A704     		.2byte	0x4a7
  2434 0713 97000000 		.4byte	0x97
  2435 0717 A6030000 		.4byte	.LLST19
  2436 071b 10       		.uleb128 0x10
- 2437 071c 00060000 		.4byte	.LASF85
+ 2437 071c E6050000 		.4byte	.LASF85
  2438 0720 01       		.byte	0x1
  2439 0721 A704     		.2byte	0x4a7
  2440 0723 97000000 		.4byte	0x97
  2441 0727 D2030000 		.4byte	.LLST20
  2442 072b 10       		.uleb128 0x10
- 2443 072c 98050000 		.4byte	.LASF86
+ 2443 072c 7E050000 		.4byte	.LASF86
  2444 0730 01       		.byte	0x1
  2445 0731 A704     		.2byte	0x4a7
  2446 0733 97000000 		.4byte	0x97
  2447 0737 FE030000 		.4byte	.LLST21
  2448 073b 11       		.uleb128 0x11
- 2449 073c A6040000 		.4byte	.LASF81
+ 2449 073c 8C040000 		.4byte	.LASF81
  2450 0740 01       		.byte	0x1
  2451 0741 A904     		.2byte	0x4a9
-ARM GAS  /tmp/cccm7nIq.s 			page 44
+ARM GAS  /tmp/ccVspVHd.s 			page 44
 
 
  2452 0743 BD000000 		.4byte	0xbd
  2453 0747 38040000 		.4byte	.LLST22
  2454 074b 11       		.uleb128 0x11
- 2455 074c AE040000 		.4byte	.LASF82
+ 2455 074c 94040000 		.4byte	.LASF82
  2456 0750 01       		.byte	0x1
  2457 0751 A904     		.2byte	0x4a9
  2458 0753 BD000000 		.4byte	0xbd
  2459 0757 9A040000 		.4byte	.LLST23
  2460 075b 11       		.uleb128 0x11
- 2461 075c B6040000 		.4byte	.LASF87
+ 2461 075c 9C040000 		.4byte	.LASF87
  2462 0760 01       		.byte	0x1
  2463 0761 A904     		.2byte	0x4a9
  2464 0763 BD000000 		.4byte	0xbd
  2465 0767 1B050000 		.4byte	.LLST24
  2466 076b 00       		.byte	0
  2467 076c 0E       		.uleb128 0xe
- 2468 076d C6070000 		.4byte	.LASF88
+ 2468 076d C5070000 		.4byte	.LASF88
  2469 0771 01       		.byte	0x1
  2470 0772 5004     		.2byte	0x450
  2471 0774 00000000 		.4byte	.LFB134
@@ -2638,10 +2638,10 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  2506 07c2 51       		.byte	0x51
  2507 07c3 00       		.byte	0
  2508 07c4 0E       		.uleb128 0xe
-ARM GAS  /tmp/cccm7nIq.s 			page 45
+ARM GAS  /tmp/ccVspVHd.s 			page 45
 
 
- 2509 07c5 47050000 		.4byte	.LASF90
+ 2509 07c5 2D050000 		.4byte	.LASF90
  2510 07c9 01       		.byte	0x1
  2511 07ca 1D04     		.2byte	0x41d
  2512 07cc 00000000 		.4byte	.LFB132
@@ -2665,7 +2665,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  2530 07f5 51       		.byte	0x51
  2531 07f6 00       		.byte	0
  2532 07f7 15       		.uleb128 0x15
- 2533 07f8 27050000 		.4byte	.LASF119
+ 2533 07f8 0D050000 		.4byte	.LASF119
  2534 07fc 01       		.byte	0x1
  2535 07fd EF03     		.2byte	0x3ef
  2536 07ff BD000000 		.4byte	0xbd
@@ -2691,14 +2691,14 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  2556 0833 4C050000 		.4byte	.LLST18
  2557 0837 00       		.byte	0
  2558 0838 0E       		.uleb128 0xe
- 2559 0839 F9070000 		.4byte	.LASF92
+ 2559 0839 F8070000 		.4byte	.LASF92
  2560 083d 01       		.byte	0x1
  2561 083e C303     		.2byte	0x3c3
  2562 0840 00000000 		.4byte	.LFB129
  2563 0844 14000000 		.4byte	.LFE129-.LFB129
  2564 0848 01       		.uleb128 0x1
  2565 0849 9C       		.byte	0x9c
-ARM GAS  /tmp/cccm7nIq.s 			page 46
+ARM GAS  /tmp/ccVspVHd.s 			page 46
 
 
  2566 084a 6B080000 		.4byte	0x86b
@@ -2734,31 +2734,31 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  2596 088d 01       		.uleb128 0x1
  2597 088e 50       		.byte	0x50
  2598 088f 10       		.uleb128 0x10
- 2599 0890 20050000 		.4byte	.LASF94
+ 2599 0890 06050000 		.4byte	.LASF94
  2600 0894 01       		.byte	0x1
  2601 0895 A303     		.2byte	0x3a3
  2602 0897 97000000 		.4byte	0x97
  2603 089b 6D050000 		.4byte	.LLST15
  2604 089f 11       		.uleb128 0x11
- 2605 08a0 A6040000 		.4byte	.LASF81
+ 2605 08a0 8C040000 		.4byte	.LASF81
  2606 08a4 01       		.byte	0x1
  2607 08a5 A503     		.2byte	0x3a5
  2608 08a7 BD000000 		.4byte	0xbd
  2609 08ab 8E050000 		.4byte	.LLST16
  2610 08af 11       		.uleb128 0x11
- 2611 08b0 AE040000 		.4byte	.LASF82
+ 2611 08b0 94040000 		.4byte	.LASF82
  2612 08b4 01       		.byte	0x1
  2613 08b5 A603     		.2byte	0x3a6
  2614 08b7 BD000000 		.4byte	0xbd
  2615 08bb AD050000 		.4byte	.LLST17
  2616 08bf 00       		.byte	0
  2617 08c0 0E       		.uleb128 0xe
- 2618 08c1 C9040000 		.4byte	.LASF95
+ 2618 08c1 AF040000 		.4byte	.LASF95
  2619 08c5 01       		.byte	0x1
  2620 08c6 8903     		.2byte	0x389
  2621 08c8 00000000 		.4byte	.LFB127
  2622 08cc 14000000 		.4byte	.LFE127-.LFB127
-ARM GAS  /tmp/cccm7nIq.s 			page 47
+ARM GAS  /tmp/ccVspVHd.s 			page 47
 
 
  2623 08d0 01       		.uleb128 0x1
@@ -2780,7 +2780,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  2639 08f1 51       		.byte	0x51
  2640 08f2 00       		.byte	0
  2641 08f3 0E       		.uleb128 0xe
- 2642 08f4 4E070000 		.4byte	.LASF96
+ 2642 08f4 4D070000 		.4byte	.LASF96
  2643 08f8 01       		.byte	0x1
  2644 08f9 7003     		.2byte	0x370
  2645 08fb 00000000 		.4byte	.LFB126
@@ -2804,7 +2804,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  2663 0924 51       		.byte	0x51
  2664 0925 00       		.byte	0
  2665 0926 13       		.uleb128 0x13
- 2666 0927 A7070000 		.4byte	.LASF97
+ 2666 0927 A6070000 		.4byte	.LASF97
  2667 092b 01       		.byte	0x1
  2668 092c 5203     		.2byte	0x352
  2669 092e 38020000 		.4byte	0x238
@@ -2818,19 +2818,19 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  2677 0945 01       		.byte	0x1
  2678 0946 5203     		.2byte	0x352
  2679 0948 64030000 		.4byte	0x364
-ARM GAS  /tmp/cccm7nIq.s 			page 48
+ARM GAS  /tmp/ccVspVHd.s 			page 48
 
 
  2680 094c D4050000 		.4byte	.LLST13
  2681 0950 11       		.uleb128 0x11
- 2682 0951 54080000 		.4byte	.LASF57
+ 2682 0951 53080000 		.4byte	.LASF57
  2683 0955 01       		.byte	0x1
  2684 0956 5403     		.2byte	0x354
  2685 0958 38020000 		.4byte	0x238
  2686 095c F5050000 		.4byte	.LLST14
  2687 0960 00       		.byte	0
  2688 0961 0E       		.uleb128 0xe
- 2689 0962 8C080000 		.4byte	.LASF98
+ 2689 0962 8B080000 		.4byte	.LASF98
  2690 0966 01       		.byte	0x1
  2691 0967 4403     		.2byte	0x344
  2692 0969 00000000 		.4byte	.LFB124
@@ -2847,7 +2847,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  2703 0984 50       		.byte	0x50
  2704 0985 00       		.byte	0
  2705 0986 0E       		.uleb128 0xe
- 2706 0987 7F040000 		.4byte	.LASF99
+ 2706 0987 65040000 		.4byte	.LASF99
  2707 098b 01       		.byte	0x1
  2708 098c CC02     		.2byte	0x2cc
  2709 098e 00000000 		.4byte	.LFB123
@@ -2863,41 +2863,41 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  2719 09a8 01       		.uleb128 0x1
  2720 09a9 50       		.byte	0x50
  2721 09aa 10       		.uleb128 0x10
- 2722 09ab 05060000 		.4byte	.LASF84
+ 2722 09ab EB050000 		.4byte	.LASF84
  2723 09af 01       		.byte	0x1
  2724 09b0 CC02     		.2byte	0x2cc
  2725 09b2 97000000 		.4byte	0x97
  2726 09b6 1C060000 		.4byte	.LLST8
  2727 09ba 10       		.uleb128 0x10
- 2728 09bb 00060000 		.4byte	.LASF85
+ 2728 09bb E6050000 		.4byte	.LASF85
  2729 09bf 01       		.byte	0x1
  2730 09c0 CC02     		.2byte	0x2cc
  2731 09c2 97000000 		.4byte	0x97
  2732 09c6 6F060000 		.4byte	.LLST9
  2733 09ca 10       		.uleb128 0x10
- 2734 09cb 98050000 		.4byte	.LASF86
+ 2734 09cb 7E050000 		.4byte	.LASF86
  2735 09cf 01       		.byte	0x1
  2736 09d0 CC02     		.2byte	0x2cc
-ARM GAS  /tmp/cccm7nIq.s 			page 49
+ARM GAS  /tmp/ccVspVHd.s 			page 49
 
 
  2737 09d2 97000000 		.4byte	0x97
  2738 09d6 C2060000 		.4byte	.LLST10
  2739 09da 11       		.uleb128 0x11
- 2740 09db A6040000 		.4byte	.LASF81
+ 2740 09db 8C040000 		.4byte	.LASF81
  2741 09df 01       		.byte	0x1
  2742 09e0 CE02     		.2byte	0x2ce
  2743 09e2 BD000000 		.4byte	0xbd
  2744 09e6 FC060000 		.4byte	.LLST11
  2745 09ea 11       		.uleb128 0x11
- 2746 09eb AE040000 		.4byte	.LASF82
+ 2746 09eb 94040000 		.4byte	.LASF82
  2747 09ef 01       		.byte	0x1
  2748 09f0 CE02     		.2byte	0x2ce
  2749 09f2 BD000000 		.4byte	0xbd
  2750 09f6 A0070000 		.4byte	.LLST12
  2751 09fa 00       		.byte	0
  2752 09fb 0E       		.uleb128 0xe
- 2753 09fc B7080000 		.4byte	.LASF100
+ 2753 09fc B6080000 		.4byte	.LASF100
  2754 0a00 01       		.byte	0x1
  2755 0a01 6802     		.2byte	0x268
  2756 0a03 00000000 		.4byte	.LFB122
@@ -2914,7 +2914,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  2767 0a1e 50       		.byte	0x50
  2768 0a1f 00       		.byte	0
  2769 0a20 0E       		.uleb128 0xe
- 2770 0a21 F6030000 		.4byte	.LASF101
+ 2770 0a21 93060000 		.4byte	.LASF101
  2771 0a25 01       		.byte	0x1
  2772 0a26 4E02     		.2byte	0x24e
  2773 0a28 00000000 		.4byte	.LFB121
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  2791 0a51 0C000000 		.4byte	.LFE120-.LFB120
  2792 0a55 01       		.uleb128 0x1
  2793 0a56 9C       		.byte	0x9c
-ARM GAS  /tmp/cccm7nIq.s 			page 50
+ARM GAS  /tmp/ccVspVHd.s 			page 50
 
 
  2794 0a57 8A0A0000 		.4byte	0xa8a
@@ -2950,7 +2950,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  2800 0a67 01       		.uleb128 0x1
  2801 0a68 50       		.byte	0x50
  2802 0a69 10       		.uleb128 0x10
- 2803 0a6a 05060000 		.4byte	.LASF84
+ 2803 0a6a EB050000 		.4byte	.LASF84
  2804 0a6e 01       		.byte	0x1
  2805 0a6f 0E02     		.2byte	0x20e
  2806 0a71 97000000 		.4byte	0x97
@@ -2979,7 +2979,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  2829 0aac 01       		.uleb128 0x1
  2830 0aad 50       		.byte	0x50
  2831 0aae 0F       		.uleb128 0xf
- 2832 0aaf 98040000 		.4byte	.LASF104
+ 2832 0aaf 7E040000 		.4byte	.LASF104
  2833 0ab3 01       		.byte	0x1
  2834 0ab4 E501     		.2byte	0x1e5
  2835 0ab6 A2000000 		.4byte	0xa2
@@ -2994,11 +2994,11 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  2844 0ac9 52       		.byte	0x52
  2845 0aca 00       		.byte	0
  2846 0acb 0E       		.uleb128 0xe
- 2847 0acc 09080000 		.4byte	.LASF106
+ 2847 0acc 08080000 		.4byte	.LASF106
  2848 0ad0 01       		.byte	0x1
  2849 0ad1 C801     		.2byte	0x1c8
  2850 0ad3 00000000 		.4byte	.LFB118
-ARM GAS  /tmp/cccm7nIq.s 			page 51
+ARM GAS  /tmp/ccVspVHd.s 			page 51
 
 
  2851 0ad7 10000000 		.4byte	.LFE118-.LFB118
@@ -3013,7 +3013,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  2860 0aed 01       		.uleb128 0x1
  2861 0aee 50       		.byte	0x50
  2862 0aef 10       		.uleb128 0x10
- 2863 0af0 7F050000 		.4byte	.LASF107
+ 2863 0af0 65050000 		.4byte	.LASF107
  2864 0af4 01       		.byte	0x1
  2865 0af5 C801     		.2byte	0x1c8
  2866 0af7 BD000000 		.4byte	0xbd
@@ -3050,7 +3050,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  2897 0b41 51       		.byte	0x51
  2898 0b42 00       		.byte	0
  2899 0b43 0E       		.uleb128 0xe
- 2900 0b44 52040000 		.4byte	.LASF109
+ 2900 0b44 50040000 		.4byte	.LASF109
  2901 0b48 01       		.byte	0x1
  2902 0b49 7A01     		.2byte	0x17a
  2903 0b4b 00000000 		.4byte	.LFB116
@@ -3058,11 +3058,11 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  2905 0b53 01       		.uleb128 0x1
  2906 0b54 9C       		.byte	0x9c
  2907 0b55 680B0000 		.4byte	0xb68
-ARM GAS  /tmp/cccm7nIq.s 			page 52
+ARM GAS  /tmp/ccVspVHd.s 			page 52
 
 
  2908 0b59 0F       		.uleb128 0xf
- 2909 0b5a 78060000 		.4byte	.LASF110
+ 2909 0b5a 5E060000 		.4byte	.LASF110
  2910 0b5e 01       		.byte	0x1
  2911 0b5f 7A01     		.2byte	0x17a
  2912 0b61 680B0000 		.4byte	0xb68
@@ -3073,7 +3073,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  2917 0b69 04       		.byte	0x4
  2918 0b6a 14030000 		.4byte	0x314
  2919 0b6e 0E       		.uleb128 0xe
- 2920 0b6f 81070000 		.4byte	.LASF111
+ 2920 0b6f 80070000 		.4byte	.LASF111
  2921 0b73 01       		.byte	0x1
  2922 0b74 5601     		.2byte	0x156
  2923 0b76 00000000 		.4byte	.LFB115
@@ -3082,13 +3082,13 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  2926 0b7f 9C       		.byte	0x9c
  2927 0b80 A50B0000 		.4byte	0xba5
  2928 0b84 10       		.uleb128 0x10
- 2929 0b85 78060000 		.4byte	.LASF110
+ 2929 0b85 5E060000 		.4byte	.LASF110
  2930 0b89 01       		.byte	0x1
  2931 0b8a 5601     		.2byte	0x156
  2932 0b8c 680B0000 		.4byte	0xb68
  2933 0b90 E3080000 		.4byte	.LLST2
  2934 0b94 11       		.uleb128 0x11
- 2935 0b95 A6040000 		.4byte	.LASF81
+ 2935 0b95 8C040000 		.4byte	.LASF81
  2936 0b99 01       		.byte	0x1
  2937 0b9a 5801     		.2byte	0x158
  2938 0b9c BD000000 		.4byte	0xbd
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  2962 0bd1 7F010000 		.4byte	.LASF114
  2963 0bd5 01       		.byte	0x1
  2964 0bd6 EC       		.byte	0xec
-ARM GAS  /tmp/cccm7nIq.s 			page 53
+ARM GAS  /tmp/ccVspVHd.s 			page 53
 
 
  2965 0bd7 00000000 		.4byte	.LFB113
@@ -3141,20 +3141,20 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  2982 0bfd 01       		.uleb128 0x1
  2983 0bfe 51       		.byte	0x51
  2984 0bff 18       		.uleb128 0x18
- 2985 0c00 A6040000 		.4byte	.LASF81
+ 2985 0c00 8C040000 		.4byte	.LASF81
  2986 0c04 01       		.byte	0x1
  2987 0c05 EE       		.byte	0xee
  2988 0c06 BD000000 		.4byte	0xbd
  2989 0c0a 40090000 		.4byte	.LLST0
  2990 0c0e 18       		.uleb128 0x18
- 2991 0c0f AE040000 		.4byte	.LASF82
+ 2991 0c0f 94040000 		.4byte	.LASF82
  2992 0c13 01       		.byte	0x1
  2993 0c14 EF       		.byte	0xef
  2994 0c15 97000000 		.4byte	0x97
  2995 0c19 9C090000 		.4byte	.LLST1
  2996 0c1d 00       		.byte	0
  2997 0c1e 16       		.uleb128 0x16
- 2998 0c1f BE040000 		.4byte	.LASF115
+ 2998 0c1f A4040000 		.4byte	.LASF115
  2999 0c23 01       		.byte	0x1
  3000 0c24 D6       		.byte	0xd6
  3001 0c25 00000000 		.4byte	.LFB112
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  3019 0c4a 01       		.uleb128 0x1
  3020 0c4b 31       		.byte	0x31
  3021 0c4c 00       		.byte	0
-ARM GAS  /tmp/cccm7nIq.s 			page 54
+ARM GAS  /tmp/ccVspVHd.s 			page 54
 
 
  3022 0c4d 1B       		.uleb128 0x1b
@@ -3198,8 +3198,8 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  3036 0c62 00       		.byte	0
  3037 0c63 00       		.byte	0
  3038 0c64 1C       		.uleb128 0x1c
- 3039 0c65 A7050000 		.4byte	.LASF120
- 3040 0c69 A7050000 		.4byte	.LASF120
+ 3039 0c65 8D050000 		.4byte	.LASF120
+ 3040 0c69 8D050000 		.4byte	.LASF120
  3041 0c6d 09       		.byte	0x9
  3042 0c6e 6203     		.2byte	0x362
  3043 0c70 00       		.byte	0
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  3076 001e 03       		.uleb128 0x3
  3077 001f 16       		.uleb128 0x16
  3078 0020 00       		.byte	0
-ARM GAS  /tmp/cccm7nIq.s 			page 55
+ARM GAS  /tmp/ccVspVHd.s 			page 55
 
 
  3079 0021 03       		.uleb128 0x3
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  3133 0057 49       		.uleb128 0x49
  3134 0058 13       		.uleb128 0x13
  3135 0059 3F       		.uleb128 0x3f
-ARM GAS  /tmp/cccm7nIq.s 			page 56
+ARM GAS  /tmp/ccVspVHd.s 			page 56
 
 
  3136 005a 19       		.uleb128 0x19
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  3190 0090 0B       		.uleb128 0xb
  3191 0091 49       		.uleb128 0x49
  3192 0092 13       		.uleb128 0x13
-ARM GAS  /tmp/cccm7nIq.s 			page 57
+ARM GAS  /tmp/ccVspVHd.s 			page 57
 
 
  3193 0093 3A       		.uleb128 0x3a
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  3247 00ca 03       		.uleb128 0x3
  3248 00cb 0E       		.uleb128 0xe
  3249 00cc 3A       		.uleb128 0x3a
-ARM GAS  /tmp/cccm7nIq.s 			page 58
+ARM GAS  /tmp/ccVspVHd.s 			page 58
 
 
  3250 00cd 0B       		.uleb128 0xb
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  3304 0103 0E       		.uleb128 0xe
  3305 0104 3A       		.uleb128 0x3a
  3306 0105 0B       		.uleb128 0xb
-ARM GAS  /tmp/cccm7nIq.s 			page 59
+ARM GAS  /tmp/ccVspVHd.s 			page 59
 
 
  3307 0106 3B       		.uleb128 0x3b
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  3361 013d 9742     		.uleb128 0x2117
  3362 013f 19       		.uleb128 0x19
  3363 0140 00       		.byte	0
-ARM GAS  /tmp/cccm7nIq.s 			page 60
+ARM GAS  /tmp/ccVspVHd.s 			page 60
 
 
  3364 0141 00       		.byte	0
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  3418 0178 00       		.byte	0
  3419 0179 00       		.byte	0
  3420 017a 19       		.uleb128 0x19
-ARM GAS  /tmp/cccm7nIq.s 			page 61
+ARM GAS  /tmp/ccVspVHd.s 			page 61
 
 
  3421 017b 898201   		.uleb128 0x4109
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  3475 000a 51       		.byte	0x51
  3476 000b 04000000 		.4byte	.LVL140
  3477 000f 08000000 		.4byte	.LFE149
-ARM GAS  /tmp/cccm7nIq.s 			page 62
+ARM GAS  /tmp/ccVspVHd.s 			page 62
 
 
  3478 0013 0400     		.2byte	0x4
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  3532 0086 00000000 		.4byte	0
  3533              	.LLST44:
  3534 008a 00000000 		.4byte	.LVL133
-ARM GAS  /tmp/cccm7nIq.s 			page 63
+ARM GAS  /tmp/ccVspVHd.s 			page 63
 
 
  3535 008e 1A000000 		.4byte	.LVL138
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  3589 00f7 1A       		.byte	0x1a
  3590 00f8 9F       		.byte	0x9f
  3591 00f9 12000000 		.4byte	.LVL137
-ARM GAS  /tmp/cccm7nIq.s 			page 64
+ARM GAS  /tmp/ccVspVHd.s 			page 64
 
 
  3592 00fd 1C000000 		.4byte	.LFE148
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  3646 0170 00       		.sleb128 0
  3647 0171 08       		.byte	0x8
  3648 0172 FF       		.byte	0xff
-ARM GAS  /tmp/cccm7nIq.s 			page 65
+ARM GAS  /tmp/ccVspVHd.s 			page 65
 
 
  3649 0173 1A       		.byte	0x1a
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  3703 01e7 18000000 		.4byte	.LFE145
  3704 01eb 0900     		.2byte	0x9
  3705 01ed 31       		.byte	0x31
-ARM GAS  /tmp/cccm7nIq.s 			page 66
+ARM GAS  /tmp/ccVspVHd.s 			page 66
 
 
  3706 01ee F3       		.byte	0xf3
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  3760 0265 02000000 		.4byte	.LVL115
  3761 0269 0200     		.2byte	0x2
  3762 026b 30       		.byte	0x30
-ARM GAS  /tmp/cccm7nIq.s 			page 67
+ARM GAS  /tmp/ccVspVHd.s 			page 67
 
 
  3763 026c 9F       		.byte	0x9f
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  3817 02e9 01       		.uleb128 0x1
  3818 02ea 51       		.byte	0x51
  3819 02eb 9F       		.byte	0x9f
-ARM GAS  /tmp/cccm7nIq.s 			page 68
+ARM GAS  /tmp/ccVspVHd.s 			page 68
 
 
  3820 02ec 00000000 		.4byte	0
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  3874 0374 0100     		.2byte	0x1
  3875 0376 51       		.byte	0x51
  3876 0377 00000000 		.4byte	0
-ARM GAS  /tmp/cccm7nIq.s 			page 69
+ARM GAS  /tmp/ccVspVHd.s 			page 69
 
 
  3877 037b 00000000 		.4byte	0
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  3931 03f5 52       		.byte	0x52
  3932 03f6 00000000 		.4byte	0
  3933 03fa 00000000 		.4byte	0
-ARM GAS  /tmp/cccm7nIq.s 			page 70
+ARM GAS  /tmp/ccVspVHd.s 			page 70
 
 
  3934              	.LLST21:
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  3988 0484 0100     		.2byte	0x1
  3989 0486 54       		.byte	0x54
  3990 0487 52000000 		.4byte	.LVL98
-ARM GAS  /tmp/cccm7nIq.s 			page 71
+ARM GAS  /tmp/ccVspVHd.s 			page 71
 
 
  3991 048b 56000000 		.4byte	.LFE135
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  4045 0501 0500     		.2byte	0x5
  4046 0503 37       		.byte	0x37
  4047 0504 74       		.byte	0x74
-ARM GAS  /tmp/cccm7nIq.s 			page 72
+ARM GAS  /tmp/ccVspVHd.s 			page 72
 
 
  4048 0505 00       		.sleb128 0
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  4102 0582 F3       		.byte	0xf3
  4103 0583 01       		.uleb128 0x1
  4104 0584 51       		.byte	0x51
-ARM GAS  /tmp/cccm7nIq.s 			page 73
+ARM GAS  /tmp/ccVspVHd.s 			page 73
 
 
  4105 0585 9F       		.byte	0x9f
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  4159 0600 9F       		.byte	0x9f
  4160 0601 02000000 		.4byte	.LVL66
  4161 0605 06000000 		.4byte	.LVL67
-ARM GAS  /tmp/cccm7nIq.s 			page 74
+ARM GAS  /tmp/ccVspVHd.s 			page 74
 
 
  4162 0609 0900     		.2byte	0x9
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  4216 067e 40000000 		.4byte	.LVL45
  4217 0682 0400     		.2byte	0x4
  4218 0684 F3       		.byte	0xf3
-ARM GAS  /tmp/cccm7nIq.s 			page 75
+ARM GAS  /tmp/ccVspVHd.s 			page 75
 
 
  4219 0685 01       		.uleb128 0x1
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  4273 0700 10000000 		.4byte	.LVL34
  4274 0704 0200     		.2byte	0x2
  4275 0706 30       		.byte	0x30
-ARM GAS  /tmp/cccm7nIq.s 			page 76
+ARM GAS  /tmp/ccVspVHd.s 			page 76
 
 
  4276 0707 9F       		.byte	0x9f
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  4330 0798 00000000 		.4byte	0
  4331 079c 00000000 		.4byte	0
  4332              	.LLST12:
-ARM GAS  /tmp/cccm7nIq.s 			page 77
+ARM GAS  /tmp/ccVspVHd.s 			page 77
 
 
  4333 07a0 00000000 		.4byte	.LVL33
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  4387 0815 64000000 		.4byte	.LVL53
  4388 0819 6A000000 		.4byte	.LVL55
  4389 081d 0100     		.2byte	0x1
-ARM GAS  /tmp/cccm7nIq.s 			page 78
+ARM GAS  /tmp/ccVspVHd.s 			page 78
 
 
  4390 081f 54       		.byte	0x54
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  4444 08a3 01       		.uleb128 0x1
  4445 08a4 51       		.byte	0x51
  4446 08a5 9F       		.byte	0x9f
-ARM GAS  /tmp/cccm7nIq.s 			page 79
+ARM GAS  /tmp/ccVspVHd.s 			page 79
 
 
  4447 08a6 00000000 		.4byte	0
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  4501 092c 52       		.byte	0x52
  4502 092d 1A000000 		.4byte	.LVL18
  4503 0931 28000000 		.4byte	.LFE115
-ARM GAS  /tmp/cccm7nIq.s 			page 80
+ARM GAS  /tmp/ccVspVHd.s 			page 80
 
 
  4504 0935 0100     		.2byte	0x1
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  4557 09b4 94       		.byte	0x94
  4558 09b5 01       		.byte	0x1
  4559 09b6 31       		.byte	0x31
-ARM GAS  /tmp/cccm7nIq.s 			page 81
+ARM GAS  /tmp/ccVspVHd.s 			page 81
 
 
  4560 09b7 1C       		.byte	0x1c
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  4614 00b8 00000000 		.4byte	.LFB133
  4615 00bc 14000000 		.4byte	.LFE133-.LFB133
  4616 00c0 00000000 		.4byte	.LFB134
-ARM GAS  /tmp/cccm7nIq.s 			page 82
+ARM GAS  /tmp/ccVspVHd.s 			page 82
 
 
  4617 00c4 1C000000 		.4byte	.LFE134-.LFB134
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  4671 004c 1C000000 		.4byte	.LFE121
  4672 0050 00000000 		.4byte	.LFB122
  4673 0054 1C000000 		.4byte	.LFE122
-ARM GAS  /tmp/cccm7nIq.s 			page 83
+ARM GAS  /tmp/ccVspVHd.s 			page 83
 
 
  4674 0058 00000000 		.4byte	.LFB123
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  4728 0130 00000000 		.4byte	0
  4729 0134 00000000 		.4byte	0
  4730              		.section	.debug_line,"",%progbits
-ARM GAS  /tmp/cccm7nIq.s 			page 84
+ARM GAS  /tmp/ccVspVHd.s 			page 84
 
 
  4731              	.Ldebug_line0:
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  4752      702D6431 
  4753 00f4 2D676764 		.ascii	"-ggdb -O2 -std=gnu99 -fomit-frame-pointer -falign-f"
  4753      62202D4F 
-ARM GAS  /tmp/cccm7nIq.s 			page 85
+ARM GAS  /tmp/ccVspVHd.s 			page 85
 
 
  4753      32202D73 
@@ -5098,7 +5098,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  4774      6720696E 
  4774      7400
  4775              	.LASF0:
-ARM GAS  /tmp/cccm7nIq.s 			page 86
+ARM GAS  /tmp/ccVspVHd.s 			page 86
 
 
  4776 0219 7369676E 		.ascii	"signed char\000"
@@ -5158,7 +5158,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  4798 02f2 454E4142 		.ascii	"ENABLE\000"
  4798      4C4500
  4799              	.LASF14:
-ARM GAS  /tmp/cccm7nIq.s 			page 87
+ARM GAS  /tmp/ccVspVHd.s 			page 87
 
 
  4800 02f9 75696E74 		.ascii	"uint16_t\000"
@@ -5218,7 +5218,7 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  4822 03ba 756E7369 		.ascii	"unsigned int\000"
  4822      676E6564 
  4822      20696E74 
-ARM GAS  /tmp/cccm7nIq.s 			page 88
+ARM GAS  /tmp/ccVspVHd.s 			page 88
 
 
  4822      00
@@ -5238,473 +5238,473 @@ ARM GAS  /tmp/cccm7nIq.s 			page 1
  4828      69676E65 
  4828      6420696E 
  4828      7400
- 4829              	.LASF101:
- 4830 03f6 4144435F 		.ascii	"ADC_TempSensorVrefintCmd\000"
- 4830      54656D70 
- 4830      53656E73 
- 4830      6F725672 
- 4830      6566696E 
+ 4829              	.LASF118:
+ 4830 03f6 2F686F6D 		.ascii	"/home/patrick/git_bldc\000"
+ 4830      652F7061 
+ 4830      74726963 
+ 4830      6B2F6769 
+ 4830      745F626C 
  4831              	.LASF51:
- 4832 040f 4144435F 		.ascii	"ADC_DMAAccessMode\000"
+ 4832 040d 4144435F 		.ascii	"ADC_DMAAccessMode\000"
  4832      444D4141 
  4832      63636573 
  4832      734D6F64 
  4832      6500
  4833              	.LASF71:
- 4834 0421 4144435F 		.ascii	"ADC_SoftwareStartInjectedConv\000"
+ 4834 041f 4144435F 		.ascii	"ADC_SoftwareStartInjectedConv\000"
  4834      536F6674 
  4834      77617265 
  4834      53746172 
  4834      74496E6A 
  4835              	.LASF5:
- 4836 043f 73686F72 		.ascii	"short unsigned int\000"
+ 4836 043d 73686F72 		.ascii	"short unsigned int\000"
  4836      7420756E 
  4836      7369676E 
  4836      65642069 
  4836      6E7400
  4837              	.LASF109:
- 4838 0452 4144435F 		.ascii	"ADC_CommonStructInit\000"
+ 4838 0450 4144435F 		.ascii	"ADC_CommonStructInit\000"
  4838      436F6D6D 
  4838      6F6E5374 
  4838      72756374 
  4838      496E6974 
- 4839              	.LASF118:
- 4840 0467 2F686F6D 		.ascii	"/home/patrick/vesc/bldc\000"
- 4840      652F7061 
- 4840      74726963 
- 4840      6B2F7665 
- 4840      73632F62 
- 4841              	.LASF99:
- 4842 047f 4144435F 		.ascii	"ADC_RegularChannelConfig\000"
- 4842      52656775 
- 4842      6C617243 
-ARM GAS  /tmp/cccm7nIq.s 			page 89
+ 4839              	.LASF99:
+ 4840 0465 4144435F 		.ascii	"ADC_RegularChannelConfig\000"
+ 4840      52656775 
+ 4840      6C617243 
+ 4840      68616E6E 
+ 4840      656C436F 
+ 4841              	.LASF104:
+ 4842 047e 48696768 		.ascii	"HighThreshold\000"
+ 4842      54687265 
+ 4842      73686F6C 
+ARM GAS  /tmp/ccVspVHd.s 			page 89
 
 
- 4842      68616E6E 
- 4842      656C436F 
- 4843              	.LASF104:
- 4844 0498 48696768 		.ascii	"HighThreshold\000"
- 4844      54687265 
- 4844      73686F6C 
- 4844      6400
- 4845              	.LASF81:
- 4846 04a6 746D7072 		.ascii	"tmpreg1\000"
- 4846      65673100 
- 4847              	.LASF82:
- 4848 04ae 746D7072 		.ascii	"tmpreg2\000"
- 4848      65673200 
- 4849              	.LASF87:
- 4850 04b6 746D7072 		.ascii	"tmpreg3\000"
- 4850      65673300 
- 4851              	.LASF115:
- 4852 04be 4144435F 		.ascii	"ADC_DeInit\000"
- 4852      4465496E 
- 4852      697400
- 4853              	.LASF95:
- 4854 04c9 4144435F 		.ascii	"ADC_ContinuousModeCmd\000"
- 4854      436F6E74 
- 4854      696E756F 
- 4854      75734D6F 
- 4854      6465436D 
- 4855              	.LASF60:
- 4856 04df 4144435F 		.ascii	"ADC_ClearFlag\000"
- 4856      436C6561 
- 4856      72466C61 
- 4856      6700
- 4857              	.LASF22:
- 4858 04ed 4A4F4652 		.ascii	"JOFR2\000"
- 4858      3200
- 4859              	.LASF23:
- 4860 04f3 4A4F4652 		.ascii	"JOFR3\000"
- 4860      3300
- 4861              	.LASF72:
- 4862 04f9 4144435F 		.ascii	"ADC_ExternalTrigInjectedConvEdgeConfig\000"
- 4862      45787465 
- 4862      726E616C 
- 4862      54726967 
- 4862      496E6A65 
- 4863              	.LASF94:
- 4864 0520 4E756D62 		.ascii	"Number\000"
- 4864      657200
- 4865              	.LASF119:
- 4866 0527 4144435F 		.ascii	"ADC_GetMultiModeConversionValue\000"
- 4866      4765744D 
- 4866      756C7469 
- 4866      4D6F6465 
- 4866      436F6E76 
- 4867              	.LASF90:
- 4868 0547 4144435F 		.ascii	"ADC_DMACmd\000"
- 4868      444D4143 
- 4868      6D6400
- 4869              	.LASF34:
-ARM GAS  /tmp/cccm7nIq.s 			page 90
+ 4842      6400
+ 4843              	.LASF81:
+ 4844 048c 746D7072 		.ascii	"tmpreg1\000"
+ 4844      65673100 
+ 4845              	.LASF82:
+ 4846 0494 746D7072 		.ascii	"tmpreg2\000"
+ 4846      65673200 
+ 4847              	.LASF87:
+ 4848 049c 746D7072 		.ascii	"tmpreg3\000"
+ 4848      65673300 
+ 4849              	.LASF115:
+ 4850 04a4 4144435F 		.ascii	"ADC_DeInit\000"
+ 4850      4465496E 
+ 4850      697400
+ 4851              	.LASF95:
+ 4852 04af 4144435F 		.ascii	"ADC_ContinuousModeCmd\000"
+ 4852      436F6E74 
+ 4852      696E756F 
+ 4852      75734D6F 
+ 4852      6465436D 
+ 4853              	.LASF60:
+ 4854 04c5 4144435F 		.ascii	"ADC_ClearFlag\000"
+ 4854      436C6561 
+ 4854      72466C61 
+ 4854      6700
+ 4855              	.LASF22:
+ 4856 04d3 4A4F4652 		.ascii	"JOFR2\000"
+ 4856      3200
+ 4857              	.LASF23:
+ 4858 04d9 4A4F4652 		.ascii	"JOFR3\000"
+ 4858      3300
+ 4859              	.LASF72:
+ 4860 04df 4144435F 		.ascii	"ADC_ExternalTrigInjectedConvEdgeConfig\000"
+ 4860      45787465 
+ 4860      726E616C 
+ 4860      54726967 
+ 4860      496E6A65 
+ 4861              	.LASF94:
+ 4862 0506 4E756D62 		.ascii	"Number\000"
+ 4862      657200
+ 4863              	.LASF119:
+ 4864 050d 4144435F 		.ascii	"ADC_GetMultiModeConversionValue\000"
+ 4864      4765744D 
+ 4864      756C7469 
+ 4864      4D6F6465 
+ 4864      436F6E76 
+ 4865              	.LASF90:
+ 4866 052d 4144435F 		.ascii	"ADC_DMACmd\000"
+ 4866      444D4143 
+ 4866      6D6400
+ 4867              	.LASF34:
+ 4868 0538 4144435F 		.ascii	"ADC_Common_TypeDef\000"
+ 4868      436F6D6D 
+ 4868      6F6E5F54 
+ 4868      79706544 
+ 4868      656600
+ 4869              	.LASF76:
+ARM GAS  /tmp/ccVspVHd.s 			page 90
 
 
- 4870 0552 4144435F 		.ascii	"ADC_Common_TypeDef\000"
- 4870      436F6D6D 
- 4870      6F6E5F54 
- 4870      79706544 
- 4870      656600
- 4871              	.LASF76:
- 4872 0565 4144435F 		.ascii	"ADC_ExternalTrigInjecConv\000"
- 4872      45787465 
- 4872      726E616C 
- 4872      54726967 
- 4872      496E6A65 
- 4873              	.LASF107:
- 4874 057f 4144435F 		.ascii	"ADC_AnalogWatchdog\000"
- 4874      416E616C 
- 4874      6F675761 
- 4874      74636864 
- 4874      6F6700
- 4875              	.LASF19:
- 4876 0592 534D5052 		.ascii	"SMPR1\000"
- 4876      3100
- 4877              	.LASF86:
- 4878 0598 4144435F 		.ascii	"ADC_SampleTime\000"
- 4878      53616D70 
- 4878      6C655469 
- 4878      6D6500
- 4879              	.LASF120:
- 4880 05a7 5243435F 		.ascii	"RCC_APB2PeriphResetCmd\000"
- 4880      41504232 
- 4880      50657269 
- 4880      70685265 
- 4880      73657443 
- 4881              	.LASF77:
- 4882 05be 4144435F 		.ascii	"ADC_SetInjectedOffset\000"
- 4882      53657449 
- 4882      6E6A6563 
- 4882      7465644F 
- 4882      66667365 
- 4883              	.LASF25:
- 4884 05d4 53515231 		.ascii	"SQR1\000"
+ 4870 054b 4144435F 		.ascii	"ADC_ExternalTrigInjecConv\000"
+ 4870      45787465 
+ 4870      726E616C 
+ 4870      54726967 
+ 4870      496E6A65 
+ 4871              	.LASF107:
+ 4872 0565 4144435F 		.ascii	"ADC_AnalogWatchdog\000"
+ 4872      416E616C 
+ 4872      6F675761 
+ 4872      74636864 
+ 4872      6F6700
+ 4873              	.LASF19:
+ 4874 0578 534D5052 		.ascii	"SMPR1\000"
+ 4874      3100
+ 4875              	.LASF86:
+ 4876 057e 4144435F 		.ascii	"ADC_SampleTime\000"
+ 4876      53616D70 
+ 4876      6C655469 
+ 4876      6D6500
+ 4877              	.LASF120:
+ 4878 058d 5243435F 		.ascii	"RCC_APB2PeriphResetCmd\000"
+ 4878      41504232 
+ 4878      50657269 
+ 4878      70685265 
+ 4878      73657443 
+ 4879              	.LASF77:
+ 4880 05a4 4144435F 		.ascii	"ADC_SetInjectedOffset\000"
+ 4880      53657449 
+ 4880      6E6A6563 
+ 4880      7465644F 
+ 4880      66667365 
+ 4881              	.LASF25:
+ 4882 05ba 53515231 		.ascii	"SQR1\000"
+ 4882      00
+ 4883              	.LASF26:
+ 4884 05bf 53515232 		.ascii	"SQR2\000"
  4884      00
- 4885              	.LASF26:
- 4886 05d9 53515232 		.ascii	"SQR2\000"
+ 4885              	.LASF27:
+ 4886 05c4 53515233 		.ascii	"SQR3\000"
  4886      00
- 4887              	.LASF27:
- 4888 05de 53515233 		.ascii	"SQR3\000"
- 4888      00
- 4889              	.LASF56:
- 4890 05e3 69746D61 		.ascii	"itmask\000"
- 4890      736B00
- 4891              	.LASF59:
- 4892 05ea 4144435F 		.ascii	"ADC_ClearITPendingBit\000"
- 4892      436C6561 
- 4892      72495450 
- 4892      656E6469 
- 4892      6E674269 
- 4893              	.LASF85:
- 4894 0600 52616E6B 		.ascii	"Rank\000"
-ARM GAS  /tmp/cccm7nIq.s 			page 91
+ 4887              	.LASF56:
+ 4888 05c9 69746D61 		.ascii	"itmask\000"
+ 4888      736B00
+ 4889              	.LASF59:
+ 4890 05d0 4144435F 		.ascii	"ADC_ClearITPendingBit\000"
+ 4890      436C6561 
+ 4890      72495450 
+ 4890      656E6469 
+ 4890      6E674269 
+ 4891              	.LASF85:
+ 4892 05e6 52616E6B 		.ascii	"Rank\000"
+ 4892      00
+ 4893              	.LASF84:
+ 4894 05eb 4144435F 		.ascii	"ADC_Channel\000"
+ 4894      4368616E 
+ 4894      6E656C00 
+ 4895              	.LASF35:
+ARM GAS  /tmp/ccVspVHd.s 			page 91
 
 
- 4894      00
- 4895              	.LASF84:
- 4896 0605 4144435F 		.ascii	"ADC_Channel\000"
- 4896      4368616E 
- 4896      6E656C00 
- 4897              	.LASF35:
- 4898 0611 52455345 		.ascii	"RESET\000"
- 4898      5400
- 4899              	.LASF67:
- 4900 0617 4144435F 		.ascii	"ADC_InjectedChannel\000"
- 4900      496E6A65 
- 4900      63746564 
- 4900      4368616E 
- 4900      6E656C00 
- 4901              	.LASF70:
- 4902 062b 4144435F 		.ascii	"ADC_GetSoftwareStartInjectedConvCmdStatus\000"
- 4902      47657453 
- 4902      6F667477 
- 4902      61726553 
- 4902      74617274 
- 4903              	.LASF75:
- 4904 0655 4144435F 		.ascii	"ADC_ExternalTrigInjectedConvConfig\000"
- 4904      45787465 
- 4904      726E616C 
- 4904      54726967 
- 4904      496E6A65 
- 4905              	.LASF110:
- 4906 0678 4144435F 		.ascii	"ADC_CommonInitStruct\000"
- 4906      436F6D6D 
- 4906      6F6E496E 
- 4906      69745374 
- 4906      72756374 
- 4907              	.LASF15:
- 4908 068d 696E7433 		.ascii	"int32_t\000"
- 4908      325F7400 
- 4909              	.LASF1:
- 4910 0695 756E7369 		.ascii	"unsigned char\000"
- 4910      676E6564 
- 4910      20636861 
- 4910      7200
- 4911              	.LASF2:
- 4912 06a3 73686F72 		.ascii	"short int\000"
- 4912      7420696E 
- 4912      7400
+ 4896 05f7 52455345 		.ascii	"RESET\000"
+ 4896      5400
+ 4897              	.LASF67:
+ 4898 05fd 4144435F 		.ascii	"ADC_InjectedChannel\000"
+ 4898      496E6A65 
+ 4898      63746564 
+ 4898      4368616E 
+ 4898      6E656C00 
+ 4899              	.LASF70:
+ 4900 0611 4144435F 		.ascii	"ADC_GetSoftwareStartInjectedConvCmdStatus\000"
+ 4900      47657453 
+ 4900      6F667477 
+ 4900      61726553 
+ 4900      74617274 
+ 4901              	.LASF75:
+ 4902 063b 4144435F 		.ascii	"ADC_ExternalTrigInjectedConvConfig\000"
+ 4902      45787465 
+ 4902      726E616C 
+ 4902      54726967 
+ 4902      496E6A65 
+ 4903              	.LASF110:
+ 4904 065e 4144435F 		.ascii	"ADC_CommonInitStruct\000"
+ 4904      436F6D6D 
+ 4904      6F6E496E 
+ 4904      69745374 
+ 4904      72756374 
+ 4905              	.LASF15:
+ 4906 0673 696E7433 		.ascii	"int32_t\000"
+ 4906      325F7400 
+ 4907              	.LASF1:
+ 4908 067b 756E7369 		.ascii	"unsigned char\000"
+ 4908      676E6564 
+ 4908      20636861 
+ 4908      7200
+ 4909              	.LASF2:
+ 4910 0689 73686F72 		.ascii	"short int\000"
+ 4910      7420696E 
+ 4910      7400
+ 4911              	.LASF101:
+ 4912 0693 4144435F 		.ascii	"ADC_TempSensorVrefintCmd\000"
+ 4912      54656D70 
+ 4912      53656E73 
+ 4912      6F725672 
+ 4912      6566696E 
  4913              	.LASF79:
- 4914 06ad 4144435F 		.ascii	"ADC_InjectedSequencerLengthConfig\000"
+ 4914 06ac 4144435F 		.ascii	"ADC_InjectedSequencerLengthConfig\000"
  4914      496E6A65 
  4914      63746564 
  4914      53657175 
  4914      656E6365 
  4915              	.LASF44:
- 4916 06cf 4144435F 		.ascii	"ADC_ExternalTrigConvEdge\000"
+ 4916 06ce 4144435F 		.ascii	"ADC_ExternalTrigConvEdge\000"
  4916      45787465 
  4916      726E616C 
  4916      54726967 
  4916      436F6E76 
  4917              	.LASF42:
-ARM GAS  /tmp/cccm7nIq.s 			page 92
+ARM GAS  /tmp/ccVspVHd.s 			page 92
 
 
- 4918 06e8 4144435F 		.ascii	"ADC_ScanConvMode\000"
+ 4918 06e7 4144435F 		.ascii	"ADC_ScanConvMode\000"
  4918      5363616E 
  4918      436F6E76 
  4918      4D6F6465 
  4918      00
  4919              	.LASF24:
- 4920 06f9 4A4F4652 		.ascii	"JOFR4\000"
+ 4920 06f8 4A4F4652 		.ascii	"JOFR4\000"
  4920      3400
  4921              	.LASF48:
- 4922 06ff 4144435F 		.ascii	"ADC_InitTypeDef\000"
+ 4922 06fe 4144435F 		.ascii	"ADC_InitTypeDef\000"
  4922      496E6974 
  4922      54797065 
  4922      44656600 
  4923              	.LASF62:
- 4924 070f 4144435F 		.ascii	"ADC_GetITStatus\000"
+ 4924 070e 4144435F 		.ascii	"ADC_GetITStatus\000"
  4924      47657449 
  4924      54537461 
  4924      74757300 
  4925              	.LASF16:
- 4926 071f 75696E74 		.ascii	"uint32_t\000"
+ 4926 071e 75696E74 		.ascii	"uint32_t\000"
  4926      33325F74 
  4926      00
  4927              	.LASF46:
- 4928 0728 4144435F 		.ascii	"ADC_DataAlign\000"
+ 4928 0727 4144435F 		.ascii	"ADC_DataAlign\000"
  4928      44617461 
  4928      416C6967 
  4928      6E00
  4929              	.LASF69:
- 4930 0736 4144435F 		.ascii	"ADC_AutoInjectedConvCmd\000"
+ 4930 0735 4144435F 		.ascii	"ADC_AutoInjectedConvCmd\000"
  4930      4175746F 
  4930      496E6A65 
  4930      63746564 
  4930      436F6E76 
  4931              	.LASF96:
- 4932 074e 4144435F 		.ascii	"ADC_EOCOnEachRegularChannelCmd\000"
+ 4932 074d 4144435F 		.ascii	"ADC_EOCOnEachRegularChannelCmd\000"
  4932      454F434F 
  4932      6E456163 
  4932      68526567 
  4932      756C6172 
  4933              	.LASF49:
- 4934 076d 4144435F 		.ascii	"ADC_Mode\000"
+ 4934 076c 4144435F 		.ascii	"ADC_Mode\000"
  4934      4D6F6465 
  4934      00
  4935              	.LASF4:
- 4936 0776 5F5F7569 		.ascii	"__uint16_t\000"
+ 4936 0775 5F5F7569 		.ascii	"__uint16_t\000"
  4936      6E743136 
  4936      5F7400
  4937              	.LASF111:
- 4938 0781 4144435F 		.ascii	"ADC_CommonInit\000"
+ 4938 0780 4144435F 		.ascii	"ADC_CommonInit\000"
  4938      436F6D6D 
  4938      6F6E496E 
  4938      697400
  4939              	.LASF58:
- 4940 0790 656E6162 		.ascii	"enablestatus\000"
+ 4940 078f 656E6162 		.ascii	"enablestatus\000"
  4940      6C657374 
  4940      61747573 
  4940      00
-ARM GAS  /tmp/cccm7nIq.s 			page 93
+ARM GAS  /tmp/ccVspVHd.s 			page 93
 
 
  4941              	.LASF6:
- 4942 079d 5F5F696E 		.ascii	"__int32_t\000"
+ 4942 079c 5F5F696E 		.ascii	"__int32_t\000"
  4942      7433325F 
  4942      7400
  4943              	.LASF97:
- 4944 07a7 4144435F 		.ascii	"ADC_GetSoftwareStartConvStatus\000"
+ 4944 07a6 4144435F 		.ascii	"ADC_GetSoftwareStartConvStatus\000"
  4944      47657453 
  4944      6F667477 
  4944      61726553 
  4944      74617274 
  4945              	.LASF88:
- 4946 07c6 4144435F 		.ascii	"ADC_MultiModeDMARequestAfterLastTransferCmd\000"
+ 4946 07c5 4144435F 		.ascii	"ADC_MultiModeDMARequestAfterLastTransferCmd\000"
  4946      4D756C74 
  4946      694D6F64 
  4946      65444D41 
  4946      52657175 
  4947              	.LASF80:
- 4948 07f2 4C656E67 		.ascii	"Length\000"
+ 4948 07f1 4C656E67 		.ascii	"Length\000"
  4948      746800
  4949              	.LASF92:
- 4950 07f9 4144435F 		.ascii	"ADC_DiscModeCmd\000"
+ 4950 07f8 4144435F 		.ascii	"ADC_DiscModeCmd\000"
  4950      44697363 
  4950      4D6F6465 
  4950      436D6400 
  4951              	.LASF106:
- 4952 0809 4144435F 		.ascii	"ADC_AnalogWatchdogCmd\000"
+ 4952 0808 4144435F 		.ascii	"ADC_AnalogWatchdogCmd\000"
  4952      416E616C 
  4952      6F675761 
  4952      74636864 
  4952      6F67436D 
  4953              	.LASF78:
- 4954 081f 4F666673 		.ascii	"Offset\000"
+ 4954 081e 4F666673 		.ascii	"Offset\000"
  4954      657400
  4955              	.LASF13:
- 4956 0826 75696E74 		.ascii	"uint8_t\000"
+ 4956 0825 75696E74 		.ascii	"uint8_t\000"
  4956      385F7400 
  4957              	.LASF63:
- 4958 082e 4144435F 		.ascii	"ADC_GetFlagStatus\000"
+ 4958 082d 4144435F 		.ascii	"ADC_GetFlagStatus\000"
  4958      47657446 
  4958      6C616753 
  4958      74617475 
  4958      7300
  4959              	.LASF29:
- 4960 0840 4A445231 		.ascii	"JDR1\000"
+ 4960 083f 4A445231 		.ascii	"JDR1\000"
  4960      00
  4961              	.LASF30:
- 4962 0845 4A445232 		.ascii	"JDR2\000"
+ 4962 0844 4A445232 		.ascii	"JDR2\000"
  4962      00
  4963              	.LASF31:
- 4964 084a 4A445233 		.ascii	"JDR3\000"
+ 4964 0849 4A445233 		.ascii	"JDR3\000"
  4964      00
  4965              	.LASF32:
- 4966 084f 4A445234 		.ascii	"JDR4\000"
+ 4966 084e 4A445234 		.ascii	"JDR4\000"
  4966      00
  4967              	.LASF57:
- 4968 0854 62697473 		.ascii	"bitstatus\000"
+ 4968 0853 62697473 		.ascii	"bitstatus\000"
  4968      74617475 
-ARM GAS  /tmp/cccm7nIq.s 			page 94
+ARM GAS  /tmp/ccVspVHd.s 			page 94
 
 
  4968      7300
  4969              	.LASF41:
- 4970 085e 4144435F 		.ascii	"ADC_Resolution\000"
+ 4970 085d 4144435F 		.ascii	"ADC_Resolution\000"
  4970      5265736F 
  4970      6C757469 
  4970      6F6E00
  4971              	.LASF66:
- 4972 086d 4144435F 		.ascii	"ADC_GetInjectedConversionValue\000"
+ 4972 086c 4144435F 		.ascii	"ADC_GetInjectedConversionValue\000"
  4972      47657449 
  4972      6E6A6563 
  4972      74656443 
  4972      6F6E7665 
  4973              	.LASF98:
- 4974 088c 4144435F 		.ascii	"ADC_SoftwareStartConv\000"
+ 4974 088b 4144435F 		.ascii	"ADC_SoftwareStartConv\000"
  4974      536F6674 
  4974      77617265 
  4974      53746172 
  4974      74436F6E 
  4975              	.LASF52:
- 4976 08a2 4144435F 		.ascii	"ADC_TwoSamplingDelay\000"
+ 4976 08a1 4144435F 		.ascii	"ADC_TwoSamplingDelay\000"
  4976      54776F53 
  4976      616D706C 
  4976      696E6744 
  4976      656C6179 
  4977              	.LASF100:
- 4978 08b7 4144435F 		.ascii	"ADC_VBATCmd\000"
+ 4978 08b6 4144435F 		.ascii	"ADC_VBATCmd\000"
  4978      56424154 
  4978      436D6400 
  4979              	.LASF50:
- 4980 08c3 4144435F 		.ascii	"ADC_Prescaler\000"
+ 4980 08c2 4144435F 		.ascii	"ADC_Prescaler\000"
  4980      50726573 
  4980      63616C65 
  4980      7200
  4981              		.ident	"GCC: (GNU Tools for Arm Embedded Processors 7-2018-q3-update) 7.3.1 20180622 (release) [AR
-ARM GAS  /tmp/cccm7nIq.s 			page 95
+ARM GAS  /tmp/ccVspVHd.s 			page 95
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32f4xx_adc.c
-     /tmp/cccm7nIq.s:18     .text.ADC_DeInit:0000000000000000 $t
-     /tmp/cccm7nIq.s:26     .text.ADC_DeInit:0000000000000000 ADC_DeInit
-     /tmp/cccm7nIq.s:57     .text.ADC_Init:0000000000000000 $t
-     /tmp/cccm7nIq.s:65     .text.ADC_Init:0000000000000000 ADC_Init
-     /tmp/cccm7nIq.s:144    .text.ADC_Init:0000000000000048 $d
-     /tmp/cccm7nIq.s:149    .text.ADC_StructInit:0000000000000000 $t
-     /tmp/cccm7nIq.s:157    .text.ADC_StructInit:0000000000000000 ADC_StructInit
-     /tmp/cccm7nIq.s:186    .text.ADC_CommonInit:0000000000000000 $t
-     /tmp/cccm7nIq.s:194    .text.ADC_CommonInit:0000000000000000 ADC_CommonInit
-     /tmp/cccm7nIq.s:238    .text.ADC_CommonInit:0000000000000020 $d
-     /tmp/cccm7nIq.s:244    .text.ADC_CommonStructInit:0000000000000000 $t
-     /tmp/cccm7nIq.s:252    .text.ADC_CommonStructInit:0000000000000000 ADC_CommonStructInit
-     /tmp/cccm7nIq.s:272    .text.ADC_Cmd:0000000000000000 $t
-     /tmp/cccm7nIq.s:280    .text.ADC_Cmd:0000000000000000 ADC_Cmd
-     /tmp/cccm7nIq.s:306    .text.ADC_AnalogWatchdogCmd:0000000000000000 $t
-     /tmp/cccm7nIq.s:314    .text.ADC_AnalogWatchdogCmd:0000000000000000 ADC_AnalogWatchdogCmd
-     /tmp/cccm7nIq.s:341    .text.ADC_AnalogWatchdogThresholdsConfig:0000000000000000 $t
-     /tmp/cccm7nIq.s:349    .text.ADC_AnalogWatchdogThresholdsConfig:0000000000000000 ADC_AnalogWatchdogThresholdsConfig
-     /tmp/cccm7nIq.s:367    .text.ADC_AnalogWatchdogSingleChannelConfig:0000000000000000 $t
-     /tmp/cccm7nIq.s:375    .text.ADC_AnalogWatchdogSingleChannelConfig:0000000000000000 ADC_AnalogWatchdogSingleChannelConfig
-     /tmp/cccm7nIq.s:400    .text.ADC_TempSensorVrefintCmd:0000000000000000 $t
-     /tmp/cccm7nIq.s:408    .text.ADC_TempSensorVrefintCmd:0000000000000000 ADC_TempSensorVrefintCmd
-     /tmp/cccm7nIq.s:434    .text.ADC_TempSensorVrefintCmd:0000000000000018 $d
-     /tmp/cccm7nIq.s:439    .text.ADC_VBATCmd:0000000000000000 $t
-     /tmp/cccm7nIq.s:447    .text.ADC_VBATCmd:0000000000000000 ADC_VBATCmd
-     /tmp/cccm7nIq.s:473    .text.ADC_VBATCmd:0000000000000018 $d
-     /tmp/cccm7nIq.s:478    .text.ADC_RegularChannelConfig:0000000000000000 $t
-     /tmp/cccm7nIq.s:486    .text.ADC_RegularChannelConfig:0000000000000000 ADC_RegularChannelConfig
-     /tmp/cccm7nIq.s:657    .text.ADC_SoftwareStartConv:0000000000000000 $t
-     /tmp/cccm7nIq.s:665    .text.ADC_SoftwareStartConv:0000000000000000 ADC_SoftwareStartConv
-     /tmp/cccm7nIq.s:683    .text.ADC_GetSoftwareStartConvStatus:0000000000000000 $t
-     /tmp/cccm7nIq.s:691    .text.ADC_GetSoftwareStartConvStatus:0000000000000000 ADC_GetSoftwareStartConvStatus
-     /tmp/cccm7nIq.s:710    .text.ADC_EOCOnEachRegularChannelCmd:0000000000000000 $t
-     /tmp/cccm7nIq.s:718    .text.ADC_EOCOnEachRegularChannelCmd:0000000000000000 ADC_EOCOnEachRegularChannelCmd
-     /tmp/cccm7nIq.s:744    .text.ADC_ContinuousModeCmd:0000000000000000 $t
-     /tmp/cccm7nIq.s:752    .text.ADC_ContinuousModeCmd:0000000000000000 ADC_ContinuousModeCmd
-     /tmp/cccm7nIq.s:778    .text.ADC_DiscModeChannelCountConfig:0000000000000000 $t
-     /tmp/cccm7nIq.s:786    .text.ADC_DiscModeChannelCountConfig:0000000000000000 ADC_DiscModeChannelCountConfig
-     /tmp/cccm7nIq.s:813    .text.ADC_DiscModeCmd:0000000000000000 $t
-     /tmp/cccm7nIq.s:821    .text.ADC_DiscModeCmd:0000000000000000 ADC_DiscModeCmd
-     /tmp/cccm7nIq.s:847    .text.ADC_GetConversionValue:0000000000000000 $t
-     /tmp/cccm7nIq.s:855    .text.ADC_GetConversionValue:0000000000000000 ADC_GetConversionValue
-     /tmp/cccm7nIq.s:873    .text.ADC_GetMultiModeConversionValue:0000000000000000 $t
-     /tmp/cccm7nIq.s:881    .text.ADC_GetMultiModeConversionValue:0000000000000000 ADC_GetMultiModeConversionValue
-     /tmp/cccm7nIq.s:896    .text.ADC_GetMultiModeConversionValue:0000000000000008 $d
-     /tmp/cccm7nIq.s:901    .text.ADC_DMACmd:0000000000000000 $t
-     /tmp/cccm7nIq.s:909    .text.ADC_DMACmd:0000000000000000 ADC_DMACmd
-     /tmp/cccm7nIq.s:935    .text.ADC_DMARequestAfterLastTransferCmd:0000000000000000 $t
-     /tmp/cccm7nIq.s:943    .text.ADC_DMARequestAfterLastTransferCmd:0000000000000000 ADC_DMARequestAfterLastTransferCmd
-     /tmp/cccm7nIq.s:969    .text.ADC_MultiModeDMARequestAfterLastTransferCmd:0000000000000000 $t
-     /tmp/cccm7nIq.s:977    .text.ADC_MultiModeDMARequestAfterLastTransferCmd:0000000000000000 ADC_MultiModeDMARequestAfterLastTransferCmd
-     /tmp/cccm7nIq.s:1003   .text.ADC_MultiModeDMARequestAfterLastTransferCmd:0000000000000018 $d
-     /tmp/cccm7nIq.s:1008   .text.ADC_InjectedChannelConfig:0000000000000000 $t
-     /tmp/cccm7nIq.s:1016   .text.ADC_InjectedChannelConfig:0000000000000000 ADC_InjectedChannelConfig
-     /tmp/cccm7nIq.s:1119   .text.ADC_InjectedSequencerLengthConfig:0000000000000000 $t
-ARM GAS  /tmp/cccm7nIq.s 			page 96
+     /tmp/ccVspVHd.s:18     .text.ADC_DeInit:0000000000000000 $t
+     /tmp/ccVspVHd.s:26     .text.ADC_DeInit:0000000000000000 ADC_DeInit
+     /tmp/ccVspVHd.s:57     .text.ADC_Init:0000000000000000 $t
+     /tmp/ccVspVHd.s:65     .text.ADC_Init:0000000000000000 ADC_Init
+     /tmp/ccVspVHd.s:144    .text.ADC_Init:0000000000000048 $d
+     /tmp/ccVspVHd.s:149    .text.ADC_StructInit:0000000000000000 $t
+     /tmp/ccVspVHd.s:157    .text.ADC_StructInit:0000000000000000 ADC_StructInit
+     /tmp/ccVspVHd.s:186    .text.ADC_CommonInit:0000000000000000 $t
+     /tmp/ccVspVHd.s:194    .text.ADC_CommonInit:0000000000000000 ADC_CommonInit
+     /tmp/ccVspVHd.s:238    .text.ADC_CommonInit:0000000000000020 $d
+     /tmp/ccVspVHd.s:244    .text.ADC_CommonStructInit:0000000000000000 $t
+     /tmp/ccVspVHd.s:252    .text.ADC_CommonStructInit:0000000000000000 ADC_CommonStructInit
+     /tmp/ccVspVHd.s:272    .text.ADC_Cmd:0000000000000000 $t
+     /tmp/ccVspVHd.s:280    .text.ADC_Cmd:0000000000000000 ADC_Cmd
+     /tmp/ccVspVHd.s:306    .text.ADC_AnalogWatchdogCmd:0000000000000000 $t
+     /tmp/ccVspVHd.s:314    .text.ADC_AnalogWatchdogCmd:0000000000000000 ADC_AnalogWatchdogCmd
+     /tmp/ccVspVHd.s:341    .text.ADC_AnalogWatchdogThresholdsConfig:0000000000000000 $t
+     /tmp/ccVspVHd.s:349    .text.ADC_AnalogWatchdogThresholdsConfig:0000000000000000 ADC_AnalogWatchdogThresholdsConfig
+     /tmp/ccVspVHd.s:367    .text.ADC_AnalogWatchdogSingleChannelConfig:0000000000000000 $t
+     /tmp/ccVspVHd.s:375    .text.ADC_AnalogWatchdogSingleChannelConfig:0000000000000000 ADC_AnalogWatchdogSingleChannelConfig
+     /tmp/ccVspVHd.s:400    .text.ADC_TempSensorVrefintCmd:0000000000000000 $t
+     /tmp/ccVspVHd.s:408    .text.ADC_TempSensorVrefintCmd:0000000000000000 ADC_TempSensorVrefintCmd
+     /tmp/ccVspVHd.s:434    .text.ADC_TempSensorVrefintCmd:0000000000000018 $d
+     /tmp/ccVspVHd.s:439    .text.ADC_VBATCmd:0000000000000000 $t
+     /tmp/ccVspVHd.s:447    .text.ADC_VBATCmd:0000000000000000 ADC_VBATCmd
+     /tmp/ccVspVHd.s:473    .text.ADC_VBATCmd:0000000000000018 $d
+     /tmp/ccVspVHd.s:478    .text.ADC_RegularChannelConfig:0000000000000000 $t
+     /tmp/ccVspVHd.s:486    .text.ADC_RegularChannelConfig:0000000000000000 ADC_RegularChannelConfig
+     /tmp/ccVspVHd.s:657    .text.ADC_SoftwareStartConv:0000000000000000 $t
+     /tmp/ccVspVHd.s:665    .text.ADC_SoftwareStartConv:0000000000000000 ADC_SoftwareStartConv
+     /tmp/ccVspVHd.s:683    .text.ADC_GetSoftwareStartConvStatus:0000000000000000 $t
+     /tmp/ccVspVHd.s:691    .text.ADC_GetSoftwareStartConvStatus:0000000000000000 ADC_GetSoftwareStartConvStatus
+     /tmp/ccVspVHd.s:710    .text.ADC_EOCOnEachRegularChannelCmd:0000000000000000 $t
+     /tmp/ccVspVHd.s:718    .text.ADC_EOCOnEachRegularChannelCmd:0000000000000000 ADC_EOCOnEachRegularChannelCmd
+     /tmp/ccVspVHd.s:744    .text.ADC_ContinuousModeCmd:0000000000000000 $t
+     /tmp/ccVspVHd.s:752    .text.ADC_ContinuousModeCmd:0000000000000000 ADC_ContinuousModeCmd
+     /tmp/ccVspVHd.s:778    .text.ADC_DiscModeChannelCountConfig:0000000000000000 $t
+     /tmp/ccVspVHd.s:786    .text.ADC_DiscModeChannelCountConfig:0000000000000000 ADC_DiscModeChannelCountConfig
+     /tmp/ccVspVHd.s:813    .text.ADC_DiscModeCmd:0000000000000000 $t
+     /tmp/ccVspVHd.s:821    .text.ADC_DiscModeCmd:0000000000000000 ADC_DiscModeCmd
+     /tmp/ccVspVHd.s:847    .text.ADC_GetConversionValue:0000000000000000 $t
+     /tmp/ccVspVHd.s:855    .text.ADC_GetConversionValue:0000000000000000 ADC_GetConversionValue
+     /tmp/ccVspVHd.s:873    .text.ADC_GetMultiModeConversionValue:0000000000000000 $t
+     /tmp/ccVspVHd.s:881    .text.ADC_GetMultiModeConversionValue:0000000000000000 ADC_GetMultiModeConversionValue
+     /tmp/ccVspVHd.s:896    .text.ADC_GetMultiModeConversionValue:0000000000000008 $d
+     /tmp/ccVspVHd.s:901    .text.ADC_DMACmd:0000000000000000 $t
+     /tmp/ccVspVHd.s:909    .text.ADC_DMACmd:0000000000000000 ADC_DMACmd
+     /tmp/ccVspVHd.s:935    .text.ADC_DMARequestAfterLastTransferCmd:0000000000000000 $t
+     /tmp/ccVspVHd.s:943    .text.ADC_DMARequestAfterLastTransferCmd:0000000000000000 ADC_DMARequestAfterLastTransferCmd
+     /tmp/ccVspVHd.s:969    .text.ADC_MultiModeDMARequestAfterLastTransferCmd:0000000000000000 $t
+     /tmp/ccVspVHd.s:977    .text.ADC_MultiModeDMARequestAfterLastTransferCmd:0000000000000000 ADC_MultiModeDMARequestAfterLastTransferCmd
+     /tmp/ccVspVHd.s:1003   .text.ADC_MultiModeDMARequestAfterLastTransferCmd:0000000000000018 $d
+     /tmp/ccVspVHd.s:1008   .text.ADC_InjectedChannelConfig:0000000000000000 $t
+     /tmp/ccVspVHd.s:1016   .text.ADC_InjectedChannelConfig:0000000000000000 ADC_InjectedChannelConfig
+     /tmp/ccVspVHd.s:1119   .text.ADC_InjectedSequencerLengthConfig:0000000000000000 $t
+ARM GAS  /tmp/ccVspVHd.s 			page 96
 
 
-     /tmp/cccm7nIq.s:1127   .text.ADC_InjectedSequencerLengthConfig:0000000000000000 ADC_InjectedSequencerLengthConfig
-     /tmp/cccm7nIq.s:1154   .text.ADC_SetInjectedOffset:0000000000000000 $t
-     /tmp/cccm7nIq.s:1162   .text.ADC_SetInjectedOffset:0000000000000000 ADC_SetInjectedOffset
-     /tmp/cccm7nIq.s:1194   .text.ADC_ExternalTrigInjectedConvConfig:0000000000000000 $t
-     /tmp/cccm7nIq.s:1202   .text.ADC_ExternalTrigInjectedConvConfig:0000000000000000 ADC_ExternalTrigInjectedConvConfig
-     /tmp/cccm7nIq.s:1227   .text.ADC_ExternalTrigInjectedConvEdgeConfig:0000000000000000 $t
-     /tmp/cccm7nIq.s:1235   .text.ADC_ExternalTrigInjectedConvEdgeConfig:0000000000000000 ADC_ExternalTrigInjectedConvEdgeConfig
-     /tmp/cccm7nIq.s:1260   .text.ADC_SoftwareStartInjectedConv:0000000000000000 $t
-     /tmp/cccm7nIq.s:1268   .text.ADC_SoftwareStartInjectedConv:0000000000000000 ADC_SoftwareStartInjectedConv
-     /tmp/cccm7nIq.s:1286   .text.ADC_GetSoftwareStartInjectedConvCmdStatus:0000000000000000 $t
-     /tmp/cccm7nIq.s:1294   .text.ADC_GetSoftwareStartInjectedConvCmdStatus:0000000000000000 ADC_GetSoftwareStartInjectedConvCmdStatus
-     /tmp/cccm7nIq.s:1313   .text.ADC_AutoInjectedConvCmd:0000000000000000 $t
-     /tmp/cccm7nIq.s:1321   .text.ADC_AutoInjectedConvCmd:0000000000000000 ADC_AutoInjectedConvCmd
-     /tmp/cccm7nIq.s:1347   .text.ADC_InjectedDiscModeCmd:0000000000000000 $t
-     /tmp/cccm7nIq.s:1355   .text.ADC_InjectedDiscModeCmd:0000000000000000 ADC_InjectedDiscModeCmd
-     /tmp/cccm7nIq.s:1381   .text.ADC_GetInjectedConversionValue:0000000000000000 $t
-     /tmp/cccm7nIq.s:1389   .text.ADC_GetInjectedConversionValue:0000000000000000 ADC_GetInjectedConversionValue
-     /tmp/cccm7nIq.s:1424   .text.ADC_ITConfig:0000000000000000 $t
-     /tmp/cccm7nIq.s:1432   .text.ADC_ITConfig:0000000000000000 ADC_ITConfig
-     /tmp/cccm7nIq.s:1468   .text.ADC_GetFlagStatus:0000000000000000 $t
-     /tmp/cccm7nIq.s:1476   .text.ADC_GetFlagStatus:0000000000000000 ADC_GetFlagStatus
-     /tmp/cccm7nIq.s:1498   .text.ADC_ClearFlag:0000000000000000 $t
-     /tmp/cccm7nIq.s:1506   .text.ADC_ClearFlag:0000000000000000 ADC_ClearFlag
-     /tmp/cccm7nIq.s:1524   .text.ADC_GetITStatus:0000000000000000 $t
-     /tmp/cccm7nIq.s:1532   .text.ADC_GetITStatus:0000000000000000 ADC_GetITStatus
-     /tmp/cccm7nIq.s:1568   .text.ADC_ClearITPendingBit:0000000000000000 $t
-     /tmp/cccm7nIq.s:1576   .text.ADC_ClearITPendingBit:0000000000000000 ADC_ClearITPendingBit
+     /tmp/ccVspVHd.s:1127   .text.ADC_InjectedSequencerLengthConfig:0000000000000000 ADC_InjectedSequencerLengthConfig
+     /tmp/ccVspVHd.s:1154   .text.ADC_SetInjectedOffset:0000000000000000 $t
+     /tmp/ccVspVHd.s:1162   .text.ADC_SetInjectedOffset:0000000000000000 ADC_SetInjectedOffset
+     /tmp/ccVspVHd.s:1194   .text.ADC_ExternalTrigInjectedConvConfig:0000000000000000 $t
+     /tmp/ccVspVHd.s:1202   .text.ADC_ExternalTrigInjectedConvConfig:0000000000000000 ADC_ExternalTrigInjectedConvConfig
+     /tmp/ccVspVHd.s:1227   .text.ADC_ExternalTrigInjectedConvEdgeConfig:0000000000000000 $t
+     /tmp/ccVspVHd.s:1235   .text.ADC_ExternalTrigInjectedConvEdgeConfig:0000000000000000 ADC_ExternalTrigInjectedConvEdgeConfig
+     /tmp/ccVspVHd.s:1260   .text.ADC_SoftwareStartInjectedConv:0000000000000000 $t
+     /tmp/ccVspVHd.s:1268   .text.ADC_SoftwareStartInjectedConv:0000000000000000 ADC_SoftwareStartInjectedConv
+     /tmp/ccVspVHd.s:1286   .text.ADC_GetSoftwareStartInjectedConvCmdStatus:0000000000000000 $t
+     /tmp/ccVspVHd.s:1294   .text.ADC_GetSoftwareStartInjectedConvCmdStatus:0000000000000000 ADC_GetSoftwareStartInjectedConvCmdStatus
+     /tmp/ccVspVHd.s:1313   .text.ADC_AutoInjectedConvCmd:0000000000000000 $t
+     /tmp/ccVspVHd.s:1321   .text.ADC_AutoInjectedConvCmd:0000000000000000 ADC_AutoInjectedConvCmd
+     /tmp/ccVspVHd.s:1347   .text.ADC_InjectedDiscModeCmd:0000000000000000 $t
+     /tmp/ccVspVHd.s:1355   .text.ADC_InjectedDiscModeCmd:0000000000000000 ADC_InjectedDiscModeCmd
+     /tmp/ccVspVHd.s:1381   .text.ADC_GetInjectedConversionValue:0000000000000000 $t
+     /tmp/ccVspVHd.s:1389   .text.ADC_GetInjectedConversionValue:0000000000000000 ADC_GetInjectedConversionValue
+     /tmp/ccVspVHd.s:1424   .text.ADC_ITConfig:0000000000000000 $t
+     /tmp/ccVspVHd.s:1432   .text.ADC_ITConfig:0000000000000000 ADC_ITConfig
+     /tmp/ccVspVHd.s:1468   .text.ADC_GetFlagStatus:0000000000000000 $t
+     /tmp/ccVspVHd.s:1476   .text.ADC_GetFlagStatus:0000000000000000 ADC_GetFlagStatus
+     /tmp/ccVspVHd.s:1498   .text.ADC_ClearFlag:0000000000000000 $t
+     /tmp/ccVspVHd.s:1506   .text.ADC_ClearFlag:0000000000000000 ADC_ClearFlag
+     /tmp/ccVspVHd.s:1524   .text.ADC_GetITStatus:0000000000000000 $t
+     /tmp/ccVspVHd.s:1532   .text.ADC_GetITStatus:0000000000000000 ADC_GetITStatus
+     /tmp/ccVspVHd.s:1568   .text.ADC_ClearITPendingBit:0000000000000000 $t
+     /tmp/ccVspVHd.s:1576   .text.ADC_ClearITPendingBit:0000000000000000 ADC_ClearITPendingBit
 
 UNDEFINED SYMBOLS
 RCC_APB2PeriphResetCmd

@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccOWqUtB.s 			page 1
+ARM GAS  /tmp/ccHKPuKs.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccOWqUtB.s 			page 1
   55              		.size	WWDG_DeInit, .-WWDG_DeInit
   56 001a 00BF     		.section	.text.WWDG_SetPrescaler,"ax",%progbits
   57              		.align	1
-ARM GAS  /tmp/ccOWqUtB.s 			page 2
+ARM GAS  /tmp/ccHKPuKs.s 			page 2
 
 
   58              		.p2align 4,,15
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccOWqUtB.s 			page 1
  112 0002 084A     		ldr	r2, .L9
  113              		.loc 1 175 0
  114 0004 0023     		movs	r3, #0
-ARM GAS  /tmp/ccOWqUtB.s 			page 3
+ARM GAS  /tmp/ccHKPuKs.s 			page 3
 
 
  115 0006 0193     		str	r3, [sp, #4]
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccOWqUtB.s 			page 1
  169              		.size	WWDG_EnableIT, .-WWDG_EnableIT
  170              		.section	.text.WWDG_SetCounter,"ax",%progbits
  171              		.align	1
-ARM GAS  /tmp/ccOWqUtB.s 			page 4
+ARM GAS  /tmp/ccHKPuKs.s 			page 4
 
 
  172              		.p2align 4,,15
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccOWqUtB.s 			page 1
  226 000a 00BF     		.align	2
  227              	.L18:
  228 000c 002C0040 		.word	1073753088
-ARM GAS  /tmp/ccOWqUtB.s 			page 5
+ARM GAS  /tmp/ccHKPuKs.s 			page 5
 
 
  229              		.cfi_endproc
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccOWqUtB.s 			page 1
  283 0000 014B     		ldr	r3, .L24
  284 0002 0022     		movs	r2, #0
  285 0004 9A60     		str	r2, [r3, #8]
-ARM GAS  /tmp/ccOWqUtB.s 			page 6
+ARM GAS  /tmp/ccHKPuKs.s 			page 6
 
 
  286              		.loc 1 289 0
@@ -326,17 +326,17 @@ ARM GAS  /tmp/ccOWqUtB.s 			page 1
  308 0006 00000000 		.4byte	.Ldebug_abbrev0
  309 000a 04       		.byte	0x4
  310 000b 01       		.uleb128 0x1
- 311 000c FB000000 		.4byte	.LASF34
+ 311 000c E3000000 		.4byte	.LASF34
  312 0010 0C       		.byte	0xc
- 313 0011 5D020000 		.4byte	.LASF35
- 314 0015 34000000 		.4byte	.LASF36
+ 313 0011 45020000 		.4byte	.LASF35
+ 314 0015 BB020000 		.4byte	.LASF36
  315 0019 00000000 		.4byte	.Ldebug_ranges0+0
  316 001d 00000000 		.4byte	0
  317 0021 00000000 		.4byte	.Ldebug_line0
  318 0025 02       		.uleb128 0x2
  319 0026 01       		.byte	0x1
  320 0027 06       		.byte	0x6
- 321 0028 7C000000 		.4byte	.LASF0
+ 321 0028 64000000 		.4byte	.LASF0
  322 002c 03       		.uleb128 0x3
  323 002d 00000000 		.4byte	.LASF4
  324 0031 02       		.byte	0x2
@@ -345,11 +345,11 @@ ARM GAS  /tmp/ccOWqUtB.s 			page 1
  327 0037 02       		.uleb128 0x2
  328 0038 01       		.byte	0x1
  329 0039 08       		.byte	0x8
- 330 003a D9000000 		.4byte	.LASF1
+ 330 003a C1000000 		.4byte	.LASF1
  331 003e 02       		.uleb128 0x2
  332 003f 02       		.byte	0x2
  333 0040 05       		.byte	0x5
- 334 0041 D3020000 		.4byte	.LASF2
+ 334 0041 D2020000 		.4byte	.LASF2
  335 0045 02       		.uleb128 0x2
  336 0046 02       		.byte	0x2
  337 0047 07       		.byte	0x7
@@ -358,31 +358,31 @@ ARM GAS  /tmp/ccOWqUtB.s 			page 1
  340 004d 0A000000 		.4byte	.LASF5
  341 0051 02       		.byte	0x2
  342 0052 4D       		.byte	0x4d
-ARM GAS  /tmp/ccOWqUtB.s 			page 7
+ARM GAS  /tmp/ccHKPuKs.s 			page 7
 
 
  343 0053 57000000 		.4byte	0x57
  344 0057 02       		.uleb128 0x2
  345 0058 04       		.byte	0x4
  346 0059 05       		.byte	0x5
- 347 005a 1C030000 		.4byte	.LASF6
+ 347 005a 1B030000 		.4byte	.LASF6
  348 005e 03       		.uleb128 0x3
- 349 005f 6A000000 		.4byte	.LASF7
+ 349 005f 52000000 		.4byte	.LASF7
  350 0063 02       		.byte	0x2
  351 0064 4F       		.byte	0x4f
  352 0065 69000000 		.4byte	0x69
  353 0069 02       		.uleb128 0x2
  354 006a 04       		.byte	0x4
  355 006b 07       		.byte	0x7
- 356 006c B4000000 		.4byte	.LASF8
+ 356 006c 9C000000 		.4byte	.LASF8
  357 0070 02       		.uleb128 0x2
  358 0071 08       		.byte	0x8
  359 0072 05       		.byte	0x5
- 360 0073 B5020000 		.4byte	.LASF9
+ 360 0073 9D020000 		.4byte	.LASF9
  361 0077 02       		.uleb128 0x2
  362 0078 08       		.byte	0x8
  363 0079 07       		.byte	0x7
- 364 007a 2C020000 		.4byte	.LASF10
+ 364 007a 14020000 		.4byte	.LASF10
  365 007e 04       		.uleb128 0x4
  366 007f 04       		.byte	0x4
  367 0080 05       		.byte	0x5
@@ -390,35 +390,35 @@ ARM GAS  /tmp/ccOWqUtB.s 			page 1
  369 0085 02       		.uleb128 0x2
  370 0086 04       		.byte	0x4
  371 0087 07       		.byte	0x7
- 372 0088 1F020000 		.4byte	.LASF11
+ 372 0088 07020000 		.4byte	.LASF11
  373 008c 03       		.uleb128 0x3
- 374 008d 43020000 		.4byte	.LASF12
+ 374 008d 2B020000 		.4byte	.LASF12
  375 0091 03       		.byte	0x3
  376 0092 18       		.byte	0x18
  377 0093 2C000000 		.4byte	0x2c
  378 0097 03       		.uleb128 0x3
- 379 0098 56000000 		.4byte	.LASF13
+ 379 0098 3E000000 		.4byte	.LASF13
  380 009c 03       		.byte	0x3
  381 009d 2C       		.byte	0x2c
  382 009e 4C000000 		.4byte	0x4c
  383 00a2 05       		.uleb128 0x5
  384 00a3 97000000 		.4byte	0x97
  385 00a7 03       		.uleb128 0x3
- 386 00a8 13030000 		.4byte	.LASF14
+ 386 00a8 12030000 		.4byte	.LASF14
  387 00ac 03       		.byte	0x3
  388 00ad 30       		.byte	0x30
  389 00ae 5E000000 		.4byte	0x5e
  390 00b2 05       		.uleb128 0x5
  391 00b3 A7000000 		.4byte	0xa7
  392 00b7 06       		.uleb128 0x6
- 393 00b8 CC000000 		.4byte	.LASF15
+ 393 00b8 B4000000 		.4byte	.LASF15
  394 00bc 04       		.byte	0x4
  395 00bd A706     		.2byte	0x6a7
  396 00bf A2000000 		.4byte	0xa2
  397 00c3 07       		.uleb128 0x7
- 398 00c4 C3020000 		.4byte	.LASF16
+ 398 00c4 AB020000 		.4byte	.LASF16
  399 00c8 05       		.byte	0x5
-ARM GAS  /tmp/ccOWqUtB.s 			page 8
+ARM GAS  /tmp/ccHKPuKs.s 			page 8
 
 
  400 00c9 4C       		.byte	0x4c
@@ -460,14 +460,14 @@ ARM GAS  /tmp/ccOWqUtB.s 			page 1
  436 0111 B9       		.byte	0xb9
  437 0112 23010000 		.4byte	0x123
  438 0116 0C       		.uleb128 0xc
- 439 0117 C6000000 		.4byte	.LASF18
+ 439 0117 AE000000 		.4byte	.LASF18
  440 011b 00       		.byte	0
  441 011c 0D       		.uleb128 0xd
  442 011d 53455400 		.ascii	"SET\000"
  443 0121 01       		.byte	0x1
  444 0122 00       		.byte	0
  445 0123 03       		.uleb128 0x3
- 446 0124 96000000 		.4byte	.LASF19
+ 446 0124 7E000000 		.4byte	.LASF19
  447 0128 07       		.byte	0x7
  448 0129 BC       		.byte	0xbc
  449 012a 09010000 		.4byte	0x109
@@ -478,18 +478,18 @@ ARM GAS  /tmp/ccOWqUtB.s 			page 1
  454 0135 07       		.byte	0x7
  455 0136 BF       		.byte	0xbf
  456 0137 48010000 		.4byte	0x148
-ARM GAS  /tmp/ccOWqUtB.s 			page 9
+ARM GAS  /tmp/ccHKPuKs.s 			page 9
 
 
  457 013b 0C       		.uleb128 0xc
- 458 013c 25030000 		.4byte	.LASF20
+ 458 013c 24030000 		.4byte	.LASF20
  459 0140 00       		.byte	0
  460 0141 0C       		.uleb128 0xc
- 461 0142 75000000 		.4byte	.LASF21
+ 461 0142 5D000000 		.4byte	.LASF21
  462 0146 01       		.byte	0x1
  463 0147 00       		.byte	0
  464 0148 0E       		.uleb128 0xe
- 465 0149 E4020000 		.4byte	.LASF25
+ 465 0149 E3020000 		.4byte	.LASF25
  466 014d 01       		.byte	0x1
  467 014e 1E01     		.2byte	0x11e
  468 0150 00000000 		.4byte	.LFB119
@@ -497,7 +497,7 @@ ARM GAS  /tmp/ccOWqUtB.s 			page 1
  470 0158 01       		.uleb128 0x1
  471 0159 9C       		.byte	0x9c
  472 015a 0F       		.uleb128 0xf
- 473 015b A1000000 		.4byte	.LASF37
+ 473 015b 89000000 		.4byte	.LASF37
  474 015f 01       		.byte	0x1
  475 0160 0A01     		.2byte	0x10a
  476 0162 23010000 		.4byte	0x123
@@ -507,14 +507,14 @@ ARM GAS  /tmp/ccOWqUtB.s 			page 1
  480 016f 9C       		.byte	0x9c
  481 0170 85010000 		.4byte	0x185
  482 0174 10       		.uleb128 0x10
- 483 0175 4C000000 		.4byte	.LASF29
+ 483 0175 34000000 		.4byte	.LASF29
  484 0179 01       		.byte	0x1
  485 017a 0C01     		.2byte	0x10c
  486 017c 23010000 		.4byte	0x123
  487 0180 00000000 		.4byte	.LLST5
  488 0184 00       		.byte	0
  489 0185 11       		.uleb128 0x11
- 490 0186 5E000000 		.4byte	.LASF22
+ 490 0186 46000000 		.4byte	.LASF22
  491 018a 01       		.byte	0x1
  492 018b EF       		.byte	0xef
  493 018c 00000000 		.4byte	.LFB117
@@ -523,14 +523,14 @@ ARM GAS  /tmp/ccOWqUtB.s 			page 1
  496 0195 9C       		.byte	0x9c
  497 0196 AA010000 		.4byte	0x1aa
  498 019a 12       		.uleb128 0x12
- 499 019b F3000000 		.4byte	.LASF24
+ 499 019b DB000000 		.4byte	.LASF24
  500 019f 01       		.byte	0x1
  501 01a0 EF       		.byte	0xef
  502 01a1 8C000000 		.4byte	0x8c
  503 01a5 23000000 		.4byte	.LLST4
  504 01a9 00       		.byte	0
  505 01aa 11       		.uleb128 0x11
- 506 01ab 96020000 		.4byte	.LASF23
+ 506 01ab 7E020000 		.4byte	.LASF23
  507 01af 01       		.byte	0x1
  508 01b0 D0       		.byte	0xd0
  509 01b1 00000000 		.4byte	.LFB116
@@ -538,18 +538,18 @@ ARM GAS  /tmp/ccOWqUtB.s 			page 1
  511 01b9 01       		.uleb128 0x1
  512 01ba 9C       		.byte	0x9c
  513 01bb CF010000 		.4byte	0x1cf
-ARM GAS  /tmp/ccOWqUtB.s 			page 10
+ARM GAS  /tmp/ccHKPuKs.s 			page 10
 
 
  514 01bf 12       		.uleb128 0x12
- 515 01c0 F3000000 		.4byte	.LASF24
+ 515 01c0 DB000000 		.4byte	.LASF24
  516 01c4 01       		.byte	0x1
  517 01c5 D0       		.byte	0xd0
  518 01c6 8C000000 		.4byte	0x8c
  519 01ca 44000000 		.4byte	.LLST3
  520 01ce 00       		.byte	0
  521 01cf 13       		.uleb128 0x13
- 522 01d0 88000000 		.4byte	.LASF26
+ 522 01d0 70000000 		.4byte	.LASF26
  523 01d4 01       		.byte	0x1
  524 01d5 C4       		.byte	0xc4
  525 01d6 00000000 		.4byte	.LFB115
@@ -557,7 +557,7 @@ ARM GAS  /tmp/ccOWqUtB.s 			page 1
  527 01de 01       		.uleb128 0x1
  528 01df 9C       		.byte	0x9c
  529 01e0 11       		.uleb128 0x11
- 530 01e1 F3020000 		.4byte	.LASF27
+ 530 01e1 F2020000 		.4byte	.LASF27
  531 01e5 01       		.byte	0x1
  532 01e6 AD       		.byte	0xad
  533 01e7 00000000 		.4byte	.LFB114
@@ -566,13 +566,13 @@ ARM GAS  /tmp/ccOWqUtB.s 			page 1
  536 01f0 9C       		.byte	0x9c
  537 01f1 13020000 		.4byte	0x213
  538 01f5 12       		.uleb128 0x12
- 539 01f6 E7000000 		.4byte	.LASF28
+ 539 01f6 CF000000 		.4byte	.LASF28
  540 01fa 01       		.byte	0x1
  541 01fb AD       		.byte	0xad
  542 01fc 8C000000 		.4byte	0x8c
  543 0200 65000000 		.4byte	.LLST2
  544 0204 14       		.uleb128 0x14
- 545 0205 DD020000 		.4byte	.LASF30
+ 545 0205 DC020000 		.4byte	.LASF30
  546 0209 01       		.byte	0x1
  547 020a AF       		.byte	0xaf
  548 020b B2000000 		.4byte	0xb2
@@ -581,7 +581,7 @@ ARM GAS  /tmp/ccOWqUtB.s 			page 1
  551 0211 7C       		.sleb128 -4
  552 0212 00       		.byte	0
  553 0213 11       		.uleb128 0x11
- 554 0214 4B020000 		.4byte	.LASF31
+ 554 0214 33020000 		.4byte	.LASF31
  555 0218 01       		.byte	0x1
  556 0219 9A       		.byte	0x9a
  557 021a 00000000 		.4byte	.LFB113
@@ -590,15 +590,15 @@ ARM GAS  /tmp/ccOWqUtB.s 			page 1
  560 0223 9C       		.byte	0x9c
  561 0224 47020000 		.4byte	0x247
  562 0228 12       		.uleb128 0x12
- 563 0229 A6020000 		.4byte	.LASF32
+ 563 0229 8E020000 		.4byte	.LASF32
  564 022d 01       		.byte	0x1
  565 022e 9A       		.byte	0x9a
  566 022f A7000000 		.4byte	0xa7
  567 0233 86000000 		.4byte	.LLST0
  568 0237 15       		.uleb128 0x15
- 569 0238 DD020000 		.4byte	.LASF30
+ 569 0238 DC020000 		.4byte	.LASF30
  570 023c 01       		.byte	0x1
-ARM GAS  /tmp/ccOWqUtB.s 			page 11
+ARM GAS  /tmp/ccHKPuKs.s 			page 11
 
 
  571 023d 9C       		.byte	0x9c
@@ -606,7 +606,7 @@ ARM GAS  /tmp/ccOWqUtB.s 			page 1
  573 0242 A7000000 		.4byte	.LLST1
  574 0246 00       		.byte	0
  575 0247 11       		.uleb128 0x11
- 576 0248 07030000 		.4byte	.LASF33
+ 576 0248 06030000 		.4byte	.LASF33
  577 024c 01       		.byte	0x1
  578 024d 8A       		.byte	0x8a
  579 024e 00000000 		.4byte	.LFB112
@@ -647,8 +647,8 @@ ARM GAS  /tmp/ccOWqUtB.s 			page 1
  614 028b 00       		.byte	0
  615 028c 00       		.byte	0
  616 028d 19       		.uleb128 0x19
- 617 028e 2D030000 		.4byte	.LASF38
- 618 0292 2D030000 		.4byte	.LASF38
+ 617 028e 2C030000 		.4byte	.LASF38
+ 618 0292 2C030000 		.4byte	.LASF38
  619 0296 08       		.byte	0x8
  620 0297 6103     		.2byte	0x361
  621 0299 00       		.byte	0
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccOWqUtB.s 			page 1
  625 0001 11       		.uleb128 0x11
  626 0002 01       		.byte	0x1
  627 0003 25       		.uleb128 0x25
-ARM GAS  /tmp/ccOWqUtB.s 			page 12
+ARM GAS  /tmp/ccHKPuKs.s 			page 12
 
 
  628 0004 0E       		.uleb128 0xe
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccOWqUtB.s 			page 1
  682 003a 13       		.uleb128 0x13
  683 003b 00       		.byte	0
  684 003c 00       		.byte	0
-ARM GAS  /tmp/ccOWqUtB.s 			page 13
+ARM GAS  /tmp/ccHKPuKs.s 			page 13
 
 
  685 003d 06       		.uleb128 0x6
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccOWqUtB.s 			page 1
  739 0073 3B       		.uleb128 0x3b
  740 0074 05       		.uleb128 0x5
  741 0075 49       		.uleb128 0x49
-ARM GAS  /tmp/ccOWqUtB.s 			page 14
+ARM GAS  /tmp/ccHKPuKs.s 			page 14
 
 
  742 0076 13       		.uleb128 0x13
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccOWqUtB.s 			page 1
  796 00ac 2E       		.uleb128 0x2e
  797 00ad 00       		.byte	0
  798 00ae 3F       		.uleb128 0x3f
-ARM GAS  /tmp/ccOWqUtB.s 			page 15
+ARM GAS  /tmp/ccHKPuKs.s 			page 15
 
 
  799 00af 19       		.uleb128 0x19
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccOWqUtB.s 			page 1
  853 00e7 05       		.uleb128 0x5
  854 00e8 49       		.uleb128 0x49
  855 00e9 13       		.uleb128 0x13
-ARM GAS  /tmp/ccOWqUtB.s 			page 16
+ARM GAS  /tmp/ccHKPuKs.s 			page 16
 
 
  856 00ea 02       		.uleb128 0x2
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccOWqUtB.s 			page 1
  910 0121 0B       		.uleb128 0xb
  911 0122 27       		.uleb128 0x27
  912 0123 19       		.uleb128 0x19
-ARM GAS  /tmp/ccOWqUtB.s 			page 17
+ARM GAS  /tmp/ccHKPuKs.s 			page 17
 
 
  913 0124 11       		.uleb128 0x11
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccOWqUtB.s 			page 1
  967 015f 02       		.uleb128 0x2
  968 0160 18       		.uleb128 0x18
  969 0161 9142     		.uleb128 0x2111
-ARM GAS  /tmp/ccOWqUtB.s 			page 18
+ARM GAS  /tmp/ccHKPuKs.s 			page 18
 
 
  970 0163 18       		.uleb128 0x18
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccOWqUtB.s 			page 1
  1024 002d 50       		.byte	0x50
  1025 002e 06000000 		.4byte	.LVL10
  1026 0032 10000000 		.4byte	.LFE117
-ARM GAS  /tmp/ccOWqUtB.s 			page 19
+ARM GAS  /tmp/ccHKPuKs.s 			page 19
 
 
  1027 0036 0400     		.2byte	0x4
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccOWqUtB.s 			page 1
  1081 00b2 9F       		.byte	0x9f
  1082 00b3 08000000 		.4byte	.LVL3
  1083 00b7 0A000000 		.4byte	.LVL4
-ARM GAS  /tmp/ccOWqUtB.s 			page 20
+ARM GAS  /tmp/ccHKPuKs.s 			page 20
 
 
  1084 00bb 0100     		.2byte	0x1
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccOWqUtB.s 			page 1
  1138              		.section	.debug_line,"",%progbits
  1139              	.Ldebug_line0:
  1140 0000 14020000 		.section	.debug_str,"MS",%progbits,1
-ARM GAS  /tmp/ccOWqUtB.s 			page 21
+ARM GAS  /tmp/ccHKPuKs.s 			page 21
 
 
  1140      02007201 
@@ -1224,231 +1224,231 @@ ARM GAS  /tmp/ccOWqUtB.s 			page 1
  1148      5F547970 
  1148      65446566 
  1148      00
- 1149              	.LASF36:
- 1150 0034 2F686F6D 		.ascii	"/home/patrick/vesc/bldc\000"
- 1150      652F7061 
- 1150      74726963 
- 1150      6B2F7665 
- 1150      73632F62 
- 1151              	.LASF29:
- 1152 004c 62697473 		.ascii	"bitstatus\000"
- 1152      74617475 
- 1152      7300
- 1153              	.LASF13:
- 1154 0056 696E7433 		.ascii	"int32_t\000"
- 1154      325F7400 
- 1155              	.LASF22:
- 1156 005e 57574447 		.ascii	"WWDG_Enable\000"
- 1156      5F456E61 
- 1156      626C6500 
- 1157              	.LASF7:
- 1158 006a 5F5F7569 		.ascii	"__uint32_t\000"
- 1158      6E743332 
- 1158      5F7400
- 1159              	.LASF21:
- 1160 0075 454E4142 		.ascii	"ENABLE\000"
- 1160      4C4500
- 1161              	.LASF0:
- 1162 007c 7369676E 		.ascii	"signed char\000"
- 1162      65642063 
- 1162      68617200 
- 1163              	.LASF26:
- 1164 0088 57574447 		.ascii	"WWDG_EnableIT\000"
- 1164      5F456E61 
- 1164      626C6549 
- 1164      5400
- 1165              	.LASF19:
-ARM GAS  /tmp/ccOWqUtB.s 			page 22
+ 1149              	.LASF29:
+ 1150 0034 62697473 		.ascii	"bitstatus\000"
+ 1150      74617475 
+ 1150      7300
+ 1151              	.LASF13:
+ 1152 003e 696E7433 		.ascii	"int32_t\000"
+ 1152      325F7400 
+ 1153              	.LASF22:
+ 1154 0046 57574447 		.ascii	"WWDG_Enable\000"
+ 1154      5F456E61 
+ 1154      626C6500 
+ 1155              	.LASF7:
+ 1156 0052 5F5F7569 		.ascii	"__uint32_t\000"
+ 1156      6E743332 
+ 1156      5F7400
+ 1157              	.LASF21:
+ 1158 005d 454E4142 		.ascii	"ENABLE\000"
+ 1158      4C4500
+ 1159              	.LASF0:
+ 1160 0064 7369676E 		.ascii	"signed char\000"
+ 1160      65642063 
+ 1160      68617200 
+ 1161              	.LASF26:
+ 1162 0070 57574447 		.ascii	"WWDG_EnableIT\000"
+ 1162      5F456E61 
+ 1162      626C6549 
+ 1162      5400
+ 1163              	.LASF19:
+ 1164 007e 466C6167 		.ascii	"FlagStatus\000"
+ 1164      53746174 
+ 1164      757300
+ 1165              	.LASF37:
+ 1166 0089 57574447 		.ascii	"WWDG_GetFlagStatus\000"
+ 1166      5F476574 
+ARM GAS  /tmp/ccHKPuKs.s 			page 22
 
 
- 1166 0096 466C6167 		.ascii	"FlagStatus\000"
+ 1166      466C6167 
  1166      53746174 
  1166      757300
- 1167              	.LASF37:
- 1168 00a1 57574447 		.ascii	"WWDG_GetFlagStatus\000"
- 1168      5F476574 
- 1168      466C6167 
- 1168      53746174 
- 1168      757300
- 1169              	.LASF8:
- 1170 00b4 6C6F6E67 		.ascii	"long unsigned int\000"
- 1170      20756E73 
- 1170      69676E65 
- 1170      6420696E 
- 1170      7400
- 1171              	.LASF18:
- 1172 00c6 52455345 		.ascii	"RESET\000"
- 1172      5400
- 1173              	.LASF15:
- 1174 00cc 49544D5F 		.ascii	"ITM_RxBuffer\000"
- 1174      52784275 
- 1174      66666572 
- 1174      00
- 1175              	.LASF1:
- 1176 00d9 756E7369 		.ascii	"unsigned char\000"
- 1176      676E6564 
- 1176      20636861 
- 1176      7200
- 1177              	.LASF28:
- 1178 00e7 57696E64 		.ascii	"WindowValue\000"
- 1178      6F775661 
- 1178      6C756500 
- 1179              	.LASF24:
- 1180 00f3 436F756E 		.ascii	"Counter\000"
- 1180      74657200 
- 1181              	.LASF34:
- 1182 00fb 474E5520 		.ascii	"GNU C99 7.3.1 20180622 (release) [ARM/embedded-7-br"
- 1182      43393920 
- 1182      372E332E 
- 1182      31203230 
- 1182      31383036 
- 1183 012e 616E6368 		.ascii	"anch revision 261907] -mcpu=cortex-m4 -mfloat-abi=h"
- 1183      20726576 
- 1183      6973696F 
- 1183      6E203236 
- 1183      31393037 
- 1184 0161 61726420 		.ascii	"ard -mfpu=fpv4-sp-d16 -mno-thumb-interwork -mthumb "
- 1184      2D6D6670 
- 1184      753D6670 
- 1184      76342D73 
- 1184      702D6431 
- 1185 0194 2D676764 		.ascii	"-ggdb -O2 -std=gnu99 -fomit-frame-pointer -falign-f"
- 1185      62202D4F 
- 1185      32202D73 
- 1185      74643D67 
- 1185      6E753939 
- 1186 01c7 756E6374 		.ascii	"unctions=16 -ffunction-sections -fdata-sections -fn"
-ARM GAS  /tmp/ccOWqUtB.s 			page 23
+ 1167              	.LASF8:
+ 1168 009c 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1168      20756E73 
+ 1168      69676E65 
+ 1168      6420696E 
+ 1168      7400
+ 1169              	.LASF18:
+ 1170 00ae 52455345 		.ascii	"RESET\000"
+ 1170      5400
+ 1171              	.LASF15:
+ 1172 00b4 49544D5F 		.ascii	"ITM_RxBuffer\000"
+ 1172      52784275 
+ 1172      66666572 
+ 1172      00
+ 1173              	.LASF1:
+ 1174 00c1 756E7369 		.ascii	"unsigned char\000"
+ 1174      676E6564 
+ 1174      20636861 
+ 1174      7200
+ 1175              	.LASF28:
+ 1176 00cf 57696E64 		.ascii	"WindowValue\000"
+ 1176      6F775661 
+ 1176      6C756500 
+ 1177              	.LASF24:
+ 1178 00db 436F756E 		.ascii	"Counter\000"
+ 1178      74657200 
+ 1179              	.LASF34:
+ 1180 00e3 474E5520 		.ascii	"GNU C99 7.3.1 20180622 (release) [ARM/embedded-7-br"
+ 1180      43393920 
+ 1180      372E332E 
+ 1180      31203230 
+ 1180      31383036 
+ 1181 0116 616E6368 		.ascii	"anch revision 261907] -mcpu=cortex-m4 -mfloat-abi=h"
+ 1181      20726576 
+ 1181      6973696F 
+ 1181      6E203236 
+ 1181      31393037 
+ 1182 0149 61726420 		.ascii	"ard -mfpu=fpv4-sp-d16 -mno-thumb-interwork -mthumb "
+ 1182      2D6D6670 
+ 1182      753D6670 
+ 1182      76342D73 
+ 1182      702D6431 
+ 1183 017c 2D676764 		.ascii	"-ggdb -O2 -std=gnu99 -fomit-frame-pointer -falign-f"
+ 1183      62202D4F 
+ 1183      32202D73 
+ 1183      74643D67 
+ 1183      6E753939 
+ 1184 01af 756E6374 		.ascii	"unctions=16 -ffunction-sections -fdata-sections -fn"
+ 1184      696F6E73 
+ 1184      3D313620 
+ 1184      2D666675 
+ 1184      6E637469 
+ 1185 01e2 6F2D636F 		.ascii	"o-common -fsingle-precision-constant\000"
+ 1185      6D6D6F6E 
+ARM GAS  /tmp/ccHKPuKs.s 			page 23
 
 
- 1186      696F6E73 
- 1186      3D313620 
- 1186      2D666675 
- 1186      6E637469 
- 1187 01fa 6F2D636F 		.ascii	"o-common -fsingle-precision-constant\000"
- 1187      6D6D6F6E 
- 1187      202D6673 
- 1187      696E676C 
- 1187      652D7072 
- 1188              	.LASF11:
- 1189 021f 756E7369 		.ascii	"unsigned int\000"
- 1189      676E6564 
- 1189      20696E74 
- 1189      00
- 1190              	.LASF10:
- 1191 022c 6C6F6E67 		.ascii	"long long unsigned int\000"
- 1191      206C6F6E 
- 1191      6720756E 
- 1191      7369676E 
- 1191      65642069 
- 1192              	.LASF12:
- 1193 0243 75696E74 		.ascii	"uint8_t\000"
- 1193      385F7400 
- 1194              	.LASF31:
- 1195 024b 57574447 		.ascii	"WWDG_SetPrescaler\000"
- 1195      5F536574 
- 1195      50726573 
- 1195      63616C65 
- 1195      7200
- 1196              	.LASF35:
- 1197 025d 43686962 		.ascii	"ChibiOS_3.0.2/ext/stdperiph_stm32f4/src/stm32f4xx_w"
- 1197      694F535F 
- 1197      332E302E 
- 1197      322F6578 
- 1197      742F7374 
- 1198 0290 7764672E 		.ascii	"wdg.c\000"
- 1198      6300
- 1199              	.LASF23:
- 1200 0296 57574447 		.ascii	"WWDG_SetCounter\000"
- 1200      5F536574 
- 1200      436F756E 
- 1200      74657200 
- 1201              	.LASF32:
- 1202 02a6 57574447 		.ascii	"WWDG_Prescaler\000"
- 1202      5F507265 
- 1202      7363616C 
- 1202      657200
- 1203              	.LASF9:
- 1204 02b5 6C6F6E67 		.ascii	"long long int\000"
- 1204      206C6F6E 
- 1204      6720696E 
- 1204      7400
- 1205              	.LASF16:
- 1206 02c3 53797374 		.ascii	"SystemCoreClock\000"
- 1206      656D436F 
- 1206      7265436C 
- 1206      6F636B00 
-ARM GAS  /tmp/ccOWqUtB.s 			page 24
+ 1185      202D6673 
+ 1185      696E676C 
+ 1185      652D7072 
+ 1186              	.LASF11:
+ 1187 0207 756E7369 		.ascii	"unsigned int\000"
+ 1187      676E6564 
+ 1187      20696E74 
+ 1187      00
+ 1188              	.LASF10:
+ 1189 0214 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1189      206C6F6E 
+ 1189      6720756E 
+ 1189      7369676E 
+ 1189      65642069 
+ 1190              	.LASF12:
+ 1191 022b 75696E74 		.ascii	"uint8_t\000"
+ 1191      385F7400 
+ 1192              	.LASF31:
+ 1193 0233 57574447 		.ascii	"WWDG_SetPrescaler\000"
+ 1193      5F536574 
+ 1193      50726573 
+ 1193      63616C65 
+ 1193      7200
+ 1194              	.LASF35:
+ 1195 0245 43686962 		.ascii	"ChibiOS_3.0.2/ext/stdperiph_stm32f4/src/stm32f4xx_w"
+ 1195      694F535F 
+ 1195      332E302E 
+ 1195      322F6578 
+ 1195      742F7374 
+ 1196 0278 7764672E 		.ascii	"wdg.c\000"
+ 1196      6300
+ 1197              	.LASF23:
+ 1198 027e 57574447 		.ascii	"WWDG_SetCounter\000"
+ 1198      5F536574 
+ 1198      436F756E 
+ 1198      74657200 
+ 1199              	.LASF32:
+ 1200 028e 57574447 		.ascii	"WWDG_Prescaler\000"
+ 1200      5F507265 
+ 1200      7363616C 
+ 1200      657200
+ 1201              	.LASF9:
+ 1202 029d 6C6F6E67 		.ascii	"long long int\000"
+ 1202      206C6F6E 
+ 1202      6720696E 
+ 1202      7400
+ 1203              	.LASF16:
+ 1204 02ab 53797374 		.ascii	"SystemCoreClock\000"
+ 1204      656D436F 
+ 1204      7265436C 
+ 1204      6F636B00 
+ 1205              	.LASF36:
+ 1206 02bb 2F686F6D 		.ascii	"/home/patrick/git_bldc\000"
+ 1206      652F7061 
+ 1206      74726963 
+ 1206      6B2F6769 
+ 1206      745F626C 
+ARM GAS  /tmp/ccHKPuKs.s 			page 24
 
 
  1207              	.LASF2:
- 1208 02d3 73686F72 		.ascii	"short int\000"
+ 1208 02d2 73686F72 		.ascii	"short int\000"
  1208      7420696E 
  1208      7400
  1209              	.LASF30:
- 1210 02dd 746D7072 		.ascii	"tmpreg\000"
+ 1210 02dc 746D7072 		.ascii	"tmpreg\000"
  1210      656700
  1211              	.LASF25:
- 1212 02e4 57574447 		.ascii	"WWDG_ClearFlag\000"
+ 1212 02e3 57574447 		.ascii	"WWDG_ClearFlag\000"
  1212      5F436C65 
  1212      6172466C 
  1212      616700
  1213              	.LASF27:
- 1214 02f3 57574447 		.ascii	"WWDG_SetWindowValue\000"
+ 1214 02f2 57574447 		.ascii	"WWDG_SetWindowValue\000"
  1214      5F536574 
  1214      57696E64 
  1214      6F775661 
  1214      6C756500 
  1215              	.LASF33:
- 1216 0307 57574447 		.ascii	"WWDG_DeInit\000"
+ 1216 0306 57574447 		.ascii	"WWDG_DeInit\000"
  1216      5F446549 
  1216      6E697400 
  1217              	.LASF14:
- 1218 0313 75696E74 		.ascii	"uint32_t\000"
+ 1218 0312 75696E74 		.ascii	"uint32_t\000"
  1218      33325F74 
  1218      00
  1219              	.LASF6:
- 1220 031c 6C6F6E67 		.ascii	"long int\000"
+ 1220 031b 6C6F6E67 		.ascii	"long int\000"
  1220      20696E74 
  1220      00
  1221              	.LASF20:
- 1222 0325 44495341 		.ascii	"DISABLE\000"
+ 1222 0324 44495341 		.ascii	"DISABLE\000"
  1222      424C4500 
  1223              	.LASF38:
- 1224 032d 5243435F 		.ascii	"RCC_APB1PeriphResetCmd\000"
+ 1224 032c 5243435F 		.ascii	"RCC_APB1PeriphResetCmd\000"
  1224      41504231 
  1224      50657269 
  1224      70685265 
  1224      73657443 
  1225              		.ident	"GCC: (GNU Tools for Arm Embedded Processors 7-2018-q3-update) 7.3.1 20180622 (release) [AR
-ARM GAS  /tmp/ccOWqUtB.s 			page 25
+ARM GAS  /tmp/ccHKPuKs.s 			page 25
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32f4xx_wwdg.c
-     /tmp/ccOWqUtB.s:18     .text.WWDG_DeInit:0000000000000000 $t
-     /tmp/ccOWqUtB.s:26     .text.WWDG_DeInit:0000000000000000 WWDG_DeInit
-     /tmp/ccOWqUtB.s:57     .text.WWDG_SetPrescaler:0000000000000000 $t
-     /tmp/ccOWqUtB.s:65     .text.WWDG_SetPrescaler:0000000000000000 WWDG_SetPrescaler
-     /tmp/ccOWqUtB.s:88     .text.WWDG_SetPrescaler:0000000000000010 $d
-     /tmp/ccOWqUtB.s:93     .text.WWDG_SetWindowValue:0000000000000000 $t
-     /tmp/ccOWqUtB.s:101    .text.WWDG_SetWindowValue:0000000000000000 WWDG_SetWindowValue
-     /tmp/ccOWqUtB.s:137    .text.WWDG_SetWindowValue:0000000000000024 $d
-     /tmp/ccOWqUtB.s:142    .text.WWDG_EnableIT:0000000000000000 $t
-     /tmp/ccOWqUtB.s:150    .text.WWDG_EnableIT:0000000000000000 WWDG_EnableIT
-     /tmp/ccOWqUtB.s:166    .text.WWDG_EnableIT:0000000000000008 $d
-     /tmp/ccOWqUtB.s:171    .text.WWDG_SetCounter:0000000000000000 $t
-     /tmp/ccOWqUtB.s:179    .text.WWDG_SetCounter:0000000000000000 WWDG_SetCounter
-     /tmp/ccOWqUtB.s:197    .text.WWDG_SetCounter:000000000000000c $d
-     /tmp/ccOWqUtB.s:202    .text.WWDG_Enable:0000000000000000 $t
-     /tmp/ccOWqUtB.s:210    .text.WWDG_Enable:0000000000000000 WWDG_Enable
-     /tmp/ccOWqUtB.s:228    .text.WWDG_Enable:000000000000000c $d
-     /tmp/ccOWqUtB.s:233    .text.WWDG_GetFlagStatus:0000000000000000 $t
-     /tmp/ccOWqUtB.s:241    .text.WWDG_GetFlagStatus:0000000000000000 WWDG_GetFlagStatus
-     /tmp/ccOWqUtB.s:262    .text.WWDG_GetFlagStatus:000000000000000c $d
-     /tmp/ccOWqUtB.s:267    .text.WWDG_ClearFlag:0000000000000000 $t
-     /tmp/ccOWqUtB.s:275    .text.WWDG_ClearFlag:0000000000000000 WWDG_ClearFlag
-     /tmp/ccOWqUtB.s:291    .text.WWDG_ClearFlag:0000000000000008 $d
+     /tmp/ccHKPuKs.s:18     .text.WWDG_DeInit:0000000000000000 $t
+     /tmp/ccHKPuKs.s:26     .text.WWDG_DeInit:0000000000000000 WWDG_DeInit
+     /tmp/ccHKPuKs.s:57     .text.WWDG_SetPrescaler:0000000000000000 $t
+     /tmp/ccHKPuKs.s:65     .text.WWDG_SetPrescaler:0000000000000000 WWDG_SetPrescaler
+     /tmp/ccHKPuKs.s:88     .text.WWDG_SetPrescaler:0000000000000010 $d
+     /tmp/ccHKPuKs.s:93     .text.WWDG_SetWindowValue:0000000000000000 $t
+     /tmp/ccHKPuKs.s:101    .text.WWDG_SetWindowValue:0000000000000000 WWDG_SetWindowValue
+     /tmp/ccHKPuKs.s:137    .text.WWDG_SetWindowValue:0000000000000024 $d
+     /tmp/ccHKPuKs.s:142    .text.WWDG_EnableIT:0000000000000000 $t
+     /tmp/ccHKPuKs.s:150    .text.WWDG_EnableIT:0000000000000000 WWDG_EnableIT
+     /tmp/ccHKPuKs.s:166    .text.WWDG_EnableIT:0000000000000008 $d
+     /tmp/ccHKPuKs.s:171    .text.WWDG_SetCounter:0000000000000000 $t
+     /tmp/ccHKPuKs.s:179    .text.WWDG_SetCounter:0000000000000000 WWDG_SetCounter
+     /tmp/ccHKPuKs.s:197    .text.WWDG_SetCounter:000000000000000c $d
+     /tmp/ccHKPuKs.s:202    .text.WWDG_Enable:0000000000000000 $t
+     /tmp/ccHKPuKs.s:210    .text.WWDG_Enable:0000000000000000 WWDG_Enable
+     /tmp/ccHKPuKs.s:228    .text.WWDG_Enable:000000000000000c $d
+     /tmp/ccHKPuKs.s:233    .text.WWDG_GetFlagStatus:0000000000000000 $t
+     /tmp/ccHKPuKs.s:241    .text.WWDG_GetFlagStatus:0000000000000000 WWDG_GetFlagStatus
+     /tmp/ccHKPuKs.s:262    .text.WWDG_GetFlagStatus:000000000000000c $d
+     /tmp/ccHKPuKs.s:267    .text.WWDG_ClearFlag:0000000000000000 $t
+     /tmp/ccHKPuKs.s:275    .text.WWDG_ClearFlag:0000000000000000 WWDG_ClearFlag
+     /tmp/ccHKPuKs.s:291    .text.WWDG_ClearFlag:0000000000000008 $d
 
 UNDEFINED SYMBOLS
 RCC_APB1PeriphResetCmd

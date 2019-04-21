@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccdlbXrd.s 			page 1
+ARM GAS  /tmp/ccxVawJ2.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccdlbXrd.s 			page 1
   55              		.size	SYSCFG_DeInit, .-SYSCFG_DeInit
   56 001a 00BF     		.section	.text.SYSCFG_MemoryRemapConfig,"ax",%progbits
   57              		.align	1
-ARM GAS  /tmp/ccdlbXrd.s 			page 2
+ARM GAS  /tmp/ccxVawJ2.s 			page 2
 
 
   58              		.p2align 4,,15
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccdlbXrd.s 			page 1
  112              	.LFE114:
  113              		.size	SYSCFG_MemorySwappingBank, .-SYSCFG_MemorySwappingBank
  114              		.section	.text.SYSCFG_EXTILineConfig,"ax",%progbits
-ARM GAS  /tmp/ccdlbXrd.s 			page 3
+ARM GAS  /tmp/ccxVawJ2.s 			page 3
 
 
  115              		.align	1
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccdlbXrd.s 			page 1
  169              		.section	.text.SYSCFG_ETH_MediaInterfaceConfig,"ax",%progbits
  170              		.align	1
  171              		.p2align 4,,15
-ARM GAS  /tmp/ccdlbXrd.s 			page 4
+ARM GAS  /tmp/ccxVawJ2.s 			page 4
 
 
  172              		.global	SYSCFG_ETH_MediaInterfaceConfig
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccdlbXrd.s 			page 1
  226              		.size	SYSCFG_CompensationCellCmd, .-SYSCFG_CompensationCellCmd
  227              		.section	.text.SYSCFG_GetCompensationCellStatus,"ax",%progbits
  228              		.align	1
-ARM GAS  /tmp/ccdlbXrd.s 			page 5
+ARM GAS  /tmp/ccxVawJ2.s 			page 5
 
 
  229              		.p2align 4,,15
@@ -287,18 +287,18 @@ ARM GAS  /tmp/ccdlbXrd.s 			page 1
  272 0006 00000000 		.4byte	.Ldebug_abbrev0
  273 000a 04       		.byte	0x4
  274 000b 01       		.uleb128 0x1
- 275 000c 77010000 		.4byte	.LASF39
+ 275 000c 5F010000 		.4byte	.LASF39
  276 0010 0C       		.byte	0xc
- 277 0011 CD020000 		.4byte	.LASF40
- 278 0015 93000000 		.4byte	.LASF41
+ 277 0011 B5020000 		.4byte	.LASF40
+ 278 0015 22030000 		.4byte	.LASF41
  279 0019 00000000 		.4byte	.Ldebug_ranges0+0
  280 001d 00000000 		.4byte	0
  281 0021 00000000 		.4byte	.Ldebug_line0
  282 0025 02       		.uleb128 0x2
  283 0026 01       		.byte	0x1
  284 0027 06       		.byte	0x6
- 285 0028 08030000 		.4byte	.LASF0
-ARM GAS  /tmp/ccdlbXrd.s 			page 6
+ 285 0028 F0020000 		.4byte	.LASF0
+ARM GAS  /tmp/ccxVawJ2.s 			page 6
 
 
  286 002c 03       		.uleb128 0x3
@@ -309,11 +309,11 @@ ARM GAS  /tmp/ccdlbXrd.s 			page 1
  291 0037 02       		.uleb128 0x2
  292 0038 01       		.byte	0x1
  293 0039 08       		.byte	0x8
- 294 003a 01010000 		.4byte	.LASF1
+ 294 003a E9000000 		.4byte	.LASF1
  295 003e 02       		.uleb128 0x2
  296 003f 02       		.byte	0x2
  297 0040 05       		.byte	0x5
- 298 0041 4D030000 		.4byte	.LASF2
+ 298 0041 4C030000 		.4byte	.LASF2
  299 0045 02       		.uleb128 0x2
  300 0046 02       		.byte	0x2
  301 0047 07       		.byte	0x7
@@ -326,24 +326,24 @@ ARM GAS  /tmp/ccdlbXrd.s 			page 1
  308 0057 02       		.uleb128 0x2
  309 0058 04       		.byte	0x4
  310 0059 05       		.byte	0x5
- 311 005a 8D030000 		.4byte	.LASF6
+ 311 005a 8C030000 		.4byte	.LASF6
  312 005e 03       		.uleb128 0x3
- 313 005f D3000000 		.4byte	.LASF7
+ 313 005f BB000000 		.4byte	.LASF7
  314 0063 02       		.byte	0x2
  315 0064 4F       		.byte	0x4f
  316 0065 69000000 		.4byte	0x69
  317 0069 02       		.uleb128 0x2
  318 006a 04       		.byte	0x4
  319 006b 07       		.byte	0x7
- 320 006c 1A010000 		.4byte	.LASF8
+ 320 006c 02010000 		.4byte	.LASF8
  321 0070 02       		.uleb128 0x2
  322 0071 08       		.byte	0x8
  323 0072 05       		.byte	0x5
- 324 0073 1C030000 		.4byte	.LASF9
+ 324 0073 04030000 		.4byte	.LASF9
  325 0077 02       		.uleb128 0x2
  326 0078 08       		.byte	0x8
  327 0079 07       		.byte	0x7
- 328 007a AE020000 		.4byte	.LASF10
+ 328 007a 96020000 		.4byte	.LASF10
  329 007e 04       		.uleb128 0x4
  330 007f 04       		.byte	0x4
  331 0080 05       		.byte	0x5
@@ -351,24 +351,24 @@ ARM GAS  /tmp/ccdlbXrd.s 			page 1
  333 0085 02       		.uleb128 0x2
  334 0086 04       		.byte	0x4
  335 0087 07       		.byte	0x7
- 336 0088 9B020000 		.4byte	.LASF11
+ 336 0088 83020000 		.4byte	.LASF11
  337 008c 03       		.uleb128 0x3
- 338 008d C5020000 		.4byte	.LASF12
+ 338 008d AD020000 		.4byte	.LASF12
  339 0091 03       		.byte	0x3
  340 0092 18       		.byte	0x18
  341 0093 2C000000 		.4byte	0x2c
  342 0097 03       		.uleb128 0x3
-ARM GAS  /tmp/ccdlbXrd.s 			page 7
+ARM GAS  /tmp/ccxVawJ2.s 			page 7
 
 
- 343 0098 14030000 		.4byte	.LASF13
+ 343 0098 FC020000 		.4byte	.LASF13
  344 009c 03       		.byte	0x3
  345 009d 2C       		.byte	0x2c
  346 009e 4C000000 		.4byte	0x4c
  347 00a2 05       		.uleb128 0x5
  348 00a3 97000000 		.4byte	0x97
  349 00a7 03       		.uleb128 0x3
- 350 00a8 84030000 		.4byte	.LASF14
+ 350 00a8 83030000 		.4byte	.LASF14
  351 00ac 03       		.byte	0x3
  352 00ad 30       		.byte	0x30
  353 00ae 5E000000 		.4byte	0x5e
@@ -382,12 +382,12 @@ ARM GAS  /tmp/ccdlbXrd.s 			page 1
  361 00c5 01       		.byte	0x1
  362 00c6 00       		.byte	0
  363 00c7 08       		.uleb128 0x8
- 364 00c8 4A010000 		.4byte	.LASF15
+ 364 00c8 32010000 		.4byte	.LASF15
  365 00cc 04       		.byte	0x4
  366 00cd A706     		.2byte	0x6a7
  367 00cf A2000000 		.4byte	0xa2
  368 00d3 09       		.uleb128 0x9
- 369 00d4 2A030000 		.4byte	.LASF16
+ 369 00d4 12030000 		.4byte	.LASF16
  370 00d8 05       		.byte	0x5
  371 00d9 4C       		.byte	0x4c
  372 00da A7000000 		.4byte	0xa7
@@ -397,7 +397,7 @@ ARM GAS  /tmp/ccdlbXrd.s 			page 1
  376 00e1 3202     		.2byte	0x232
  377 00e3 29010000 		.4byte	0x129
  378 00e7 0B       		.uleb128 0xb
- 379 00e8 2C010000 		.4byte	.LASF17
+ 379 00e8 14010000 		.4byte	.LASF17
  380 00ec 06       		.byte	0x6
  381 00ed 3402     		.2byte	0x234
  382 00ef B2000000 		.4byte	0xb2
@@ -409,22 +409,22 @@ ARM GAS  /tmp/ccdlbXrd.s 			page 1
  388 00fc B2000000 		.4byte	0xb2
  389 0100 04       		.byte	0x4
  390 0101 0B       		.uleb128 0xb
- 391 0102 70010000 		.4byte	.LASF18
+ 391 0102 58010000 		.4byte	.LASF18
  392 0106 06       		.byte	0x6
  393 0107 3602     		.2byte	0x236
  394 0109 39010000 		.4byte	0x139
  395 010d 08       		.byte	0x8
  396 010e 0B       		.uleb128 0xb
- 397 010f 67010000 		.4byte	.LASF19
+ 397 010f 4F010000 		.4byte	.LASF19
  398 0113 06       		.byte	0x6
  399 0114 3702     		.2byte	0x237
-ARM GAS  /tmp/ccdlbXrd.s 			page 8
+ARM GAS  /tmp/ccxVawJ2.s 			page 8
 
 
  400 0116 B7000000 		.4byte	0xb7
  401 011a 18       		.byte	0x18
  402 011b 0B       		.uleb128 0xb
- 403 011c FB000000 		.4byte	.LASF20
+ 403 011c E3000000 		.4byte	.LASF20
  404 0120 06       		.byte	0x6
  405 0121 3802     		.2byte	0x238
  406 0123 B2000000 		.4byte	0xb2
@@ -440,7 +440,7 @@ ARM GAS  /tmp/ccdlbXrd.s 			page 1
  416 0139 05       		.uleb128 0x5
  417 013a 29010000 		.4byte	0x129
  418 013e 0D       		.uleb128 0xd
- 419 013f 60030000 		.4byte	.LASF21
+ 419 013f 5F030000 		.4byte	.LASF21
  420 0143 06       		.byte	0x6
  421 0144 3902     		.2byte	0x239
  422 0146 DE000000 		.4byte	0xde
@@ -452,14 +452,14 @@ ARM GAS  /tmp/ccdlbXrd.s 			page 1
  428 0152 B9       		.byte	0xb9
  429 0153 64010000 		.4byte	0x164
  430 0157 0F       		.uleb128 0xf
- 431 0158 A8020000 		.4byte	.LASF22
+ 431 0158 90020000 		.4byte	.LASF22
  432 015c 00       		.byte	0
  433 015d 10       		.uleb128 0x10
  434 015e 53455400 		.ascii	"SET\000"
  435 0162 01       		.byte	0x1
  436 0163 00       		.byte	0
  437 0164 03       		.uleb128 0x3
- 438 0165 0F010000 		.4byte	.LASF23
+ 438 0165 F7000000 		.4byte	.LASF23
  439 0169 07       		.byte	0x7
  440 016a BC       		.byte	0xbc
  441 016b 4A010000 		.4byte	0x14a
@@ -471,14 +471,14 @@ ARM GAS  /tmp/ccdlbXrd.s 			page 1
  447 0177 BF       		.byte	0xbf
  448 0178 89010000 		.4byte	0x189
  449 017c 0F       		.uleb128 0xf
- 450 017d 96030000 		.4byte	.LASF24
+ 450 017d 95030000 		.4byte	.LASF24
  451 0181 00       		.byte	0
  452 0182 0F       		.uleb128 0xf
- 453 0183 DE000000 		.4byte	.LASF25
+ 453 0183 C6000000 		.4byte	.LASF25
  454 0187 01       		.byte	0x1
  455 0188 00       		.byte	0
  456 0189 03       		.uleb128 0x3
-ARM GAS  /tmp/ccdlbXrd.s 			page 9
+ARM GAS  /tmp/ccxVawJ2.s 			page 9
 
 
  457 018a 83000000 		.4byte	.LASF26
@@ -496,7 +496,7 @@ ARM GAS  /tmp/ccdlbXrd.s 			page 1
  469 01a8 9C       		.byte	0x9c
  470 01a9 BD010000 		.4byte	0x1bd
  471 01ad 12       		.uleb128 0x12
- 472 01ae 9E030000 		.4byte	.LASF34
+ 472 01ae 9D030000 		.4byte	.LASF34
  473 01b2 01       		.byte	0x1
  474 01b3 D7       		.byte	0xd7
  475 01b4 64010000 		.4byte	0x164
@@ -512,7 +512,7 @@ ARM GAS  /tmp/ccdlbXrd.s 			page 1
  485 01cd 9C       		.byte	0x9c
  486 01ce E0010000 		.4byte	0x1e0
  487 01d2 14       		.uleb128 0x14
- 488 01d3 57030000 		.4byte	.LASF29
+ 488 01d3 56030000 		.4byte	.LASF29
  489 01d7 01       		.byte	0x1
  490 01d8 C8       		.byte	0xc8
  491 01d9 89010000 		.4byte	0x189
@@ -529,7 +529,7 @@ ARM GAS  /tmp/ccdlbXrd.s 			page 1
  502 01f0 9C       		.byte	0x9c
  503 01f1 03020000 		.4byte	0x203
  504 01f5 14       		.uleb128 0x14
- 505 01f6 B9000000 		.4byte	.LASF30
+ 505 01f6 A1000000 		.4byte	.LASF30
  506 01fa 01       		.byte	0x1
  507 01fb B7       		.byte	0xb7
  508 01fc A7000000 		.4byte	0xa7
@@ -537,8 +537,8 @@ ARM GAS  /tmp/ccdlbXrd.s 			page 1
  510 0201 50       		.byte	0x50
  511 0202 00       		.byte	0
  512 0203 13       		.uleb128 0x13
- 513 0204 E5000000 		.4byte	.LASF31
-ARM GAS  /tmp/ccdlbXrd.s 			page 10
+ 513 0204 CD000000 		.4byte	.LASF31
+ARM GAS  /tmp/ccxVawJ2.s 			page 10
 
 
  514 0208 01       		.byte	0x1
@@ -549,14 +549,14 @@ ARM GAS  /tmp/ccdlbXrd.s 			page 1
  519 0213 9C       		.byte	0x9c
  520 0214 44020000 		.4byte	0x244
  521 0218 14       		.uleb128 0x14
- 522 0219 6F030000 		.4byte	.LASF32
+ 522 0219 6E030000 		.4byte	.LASF32
  523 021d 01       		.byte	0x1
  524 021e A2       		.byte	0xa2
  525 021f 8C000000 		.4byte	0x8c
  526 0223 01       		.uleb128 0x1
  527 0224 50       		.byte	0x50
  528 0225 15       		.uleb128 0x15
- 529 0226 57010000 		.4byte	.LASF33
+ 529 0226 3F010000 		.4byte	.LASF33
  530 022a 01       		.byte	0x1
  531 022b A2       		.byte	0xa2
  532 022c 8C000000 		.4byte	0x8c
@@ -569,7 +569,7 @@ ARM GAS  /tmp/ccdlbXrd.s 			page 1
  539 023f 48000000 		.4byte	.LLST1
  540 0243 00       		.byte	0
  541 0244 13       		.uleb128 0x13
- 542 0245 A8030000 		.4byte	.LASF35
+ 542 0245 A7030000 		.4byte	.LASF35
  543 0249 01       		.byte	0x1
  544 024a 8B       		.byte	0x8b
  545 024b 00000000 		.4byte	.LFB114
@@ -578,7 +578,7 @@ ARM GAS  /tmp/ccdlbXrd.s 			page 1
  548 0254 9C       		.byte	0x9c
  549 0255 67020000 		.4byte	0x267
  550 0259 14       		.uleb128 0x14
- 551 025a 57030000 		.4byte	.LASF29
+ 551 025a 56030000 		.4byte	.LASF29
  552 025e 01       		.byte	0x1
  553 025f 8B       		.byte	0x8b
  554 0260 89010000 		.4byte	0x189
@@ -586,7 +586,7 @@ ARM GAS  /tmp/ccdlbXrd.s 			page 1
  556 0265 50       		.byte	0x50
  557 0266 00       		.byte	0
  558 0267 13       		.uleb128 0x13
- 559 0268 C2030000 		.4byte	.LASF36
+ 559 0268 C1030000 		.4byte	.LASF36
  560 026c 01       		.byte	0x1
  561 026d 76       		.byte	0x76
  562 026e 00000000 		.4byte	.LFB113
@@ -595,10 +595,10 @@ ARM GAS  /tmp/ccdlbXrd.s 			page 1
  565 0277 9C       		.byte	0x9c
  566 0278 8A020000 		.4byte	0x28a
  567 027c 14       		.uleb128 0x14
- 568 027d 3A030000 		.4byte	.LASF37
+ 568 027d 39030000 		.4byte	.LASF37
  569 0281 01       		.byte	0x1
  570 0282 76       		.byte	0x76
-ARM GAS  /tmp/ccdlbXrd.s 			page 11
+ARM GAS  /tmp/ccxVawJ2.s 			page 11
 
 
  571 0283 8C000000 		.4byte	0x8c
@@ -606,7 +606,7 @@ ARM GAS  /tmp/ccdlbXrd.s 			page 1
  573 0288 50       		.byte	0x50
  574 0289 00       		.byte	0
  575 028a 13       		.uleb128 0x13
- 576 028b AB000000 		.4byte	.LASF38
+ 576 028b 93000000 		.4byte	.LASF38
  577 028f 01       		.byte	0x1
  578 0290 63       		.byte	0x63
  579 0291 00000000 		.4byte	.LFB112
@@ -647,8 +647,8 @@ ARM GAS  /tmp/ccdlbXrd.s 			page 1
  614 02ce 00       		.byte	0
  615 02cf 00       		.byte	0
  616 02d0 1A       		.uleb128 0x1a
- 617 02d1 33010000 		.4byte	.LASF43
- 618 02d5 33010000 		.4byte	.LASF43
+ 617 02d1 1B010000 		.4byte	.LASF43
+ 618 02d5 1B010000 		.4byte	.LASF43
  619 02d9 08       		.byte	0x8
  620 02da 6203     		.2byte	0x362
  621 02dc 00       		.byte	0
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccdlbXrd.s 			page 1
  625 0001 11       		.uleb128 0x11
  626 0002 01       		.byte	0x1
  627 0003 25       		.uleb128 0x25
-ARM GAS  /tmp/ccdlbXrd.s 			page 12
+ARM GAS  /tmp/ccxVawJ2.s 			page 12
 
 
  628 0004 0E       		.uleb128 0xe
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccdlbXrd.s 			page 1
  682 003a 13       		.uleb128 0x13
  683 003b 00       		.byte	0
  684 003c 00       		.byte	0
-ARM GAS  /tmp/ccdlbXrd.s 			page 13
+ARM GAS  /tmp/ccxVawJ2.s 			page 13
 
 
  685 003d 06       		.uleb128 0x6
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccdlbXrd.s 			page 1
  739 0073 01       		.byte	0x1
  740 0074 0B       		.uleb128 0xb
  741 0075 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccdlbXrd.s 			page 14
+ARM GAS  /tmp/ccxVawJ2.s 			page 14
 
 
  742 0076 3A       		.uleb128 0x3a
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccdlbXrd.s 			page 1
  796 00ac 3E       		.uleb128 0x3e
  797 00ad 0B       		.uleb128 0xb
  798 00ae 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccdlbXrd.s 			page 15
+ARM GAS  /tmp/ccxVawJ2.s 			page 15
 
 
  799 00af 0B       		.uleb128 0xb
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccdlbXrd.s 			page 1
  853 00e6 00       		.byte	0
  854 00e7 00       		.byte	0
  855 00e8 12       		.uleb128 0x12
-ARM GAS  /tmp/ccdlbXrd.s 			page 16
+ARM GAS  /tmp/ccxVawJ2.s 			page 16
 
 
  856 00e9 34       		.uleb128 0x34
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccdlbXrd.s 			page 1
  910 0120 15       		.uleb128 0x15
  911 0121 05       		.uleb128 0x5
  912 0122 00       		.byte	0
-ARM GAS  /tmp/ccdlbXrd.s 			page 17
+ARM GAS  /tmp/ccxVawJ2.s 			page 17
 
 
  913 0123 03       		.uleb128 0x3
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccdlbXrd.s 			page 1
  967 0161 31       		.uleb128 0x31
  968 0162 13       		.uleb128 0x13
  969 0163 00       		.byte	0
-ARM GAS  /tmp/ccdlbXrd.s 			page 18
+ARM GAS  /tmp/ccxVawJ2.s 			page 18
 
 
  970 0164 00       		.byte	0
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccdlbXrd.s 			page 1
  1024              	.LLST1:
  1025 0048 00000000 		.4byte	.LVL4
  1026 004c 16000000 		.4byte	.LVL6
-ARM GAS  /tmp/ccdlbXrd.s 			page 19
+ARM GAS  /tmp/ccxVawJ2.s 			page 19
 
 
  1027 0050 0200     		.2byte	0x2
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccdlbXrd.s 			page 1
  1081 000c 0C000000 		.4byte	.LFE113
  1082 0010 00000000 		.4byte	.LFB114
  1083 0014 0C000000 		.4byte	.LFE114
-ARM GAS  /tmp/ccdlbXrd.s 			page 20
+ARM GAS  /tmp/ccxVawJ2.s 			page 20
 
 
  1084 0018 00000000 		.4byte	.LFB115
@@ -1195,242 +1195,242 @@ ARM GAS  /tmp/ccdlbXrd.s 			page 1
  1110      74696F6E 
  1110      616C5374 
  1110      61746500 
- 1111              	.LASF41:
- 1112 0093 2F686F6D 		.ascii	"/home/patrick/vesc/bldc\000"
- 1112      652F7061 
-ARM GAS  /tmp/ccdlbXrd.s 			page 21
+ 1111              	.LASF38:
+ 1112 0093 53595343 		.ascii	"SYSCFG_DeInit\000"
+ 1112      46475F44 
+ARM GAS  /tmp/ccxVawJ2.s 			page 21
 
 
- 1112      74726963 
- 1112      6B2F7665 
- 1112      73632F62 
- 1113              	.LASF38:
- 1114 00ab 53595343 		.ascii	"SYSCFG_DeInit\000"
- 1114      46475F44 
- 1114      65496E69 
- 1114      7400
- 1115              	.LASF30:
- 1116 00b9 53595343 		.ascii	"SYSCFG_ETH_MediaInterface\000"
- 1116      46475F45 
- 1116      54485F4D 
- 1116      65646961 
- 1116      496E7465 
- 1117              	.LASF7:
- 1118 00d3 5F5F7569 		.ascii	"__uint32_t\000"
- 1118      6E743332 
- 1118      5F7400
- 1119              	.LASF25:
- 1120 00de 454E4142 		.ascii	"ENABLE\000"
- 1120      4C4500
- 1121              	.LASF31:
- 1122 00e5 53595343 		.ascii	"SYSCFG_EXTILineConfig\000"
- 1122      46475F45 
- 1122      5854494C 
- 1122      696E6543 
- 1122      6F6E6669 
- 1123              	.LASF20:
- 1124 00fb 434D5043 		.ascii	"CMPCR\000"
- 1124      5200
- 1125              	.LASF1:
- 1126 0101 756E7369 		.ascii	"unsigned char\000"
- 1126      676E6564 
- 1126      20636861 
- 1126      7200
- 1127              	.LASF23:
- 1128 010f 466C6167 		.ascii	"FlagStatus\000"
- 1128      53746174 
- 1128      757300
- 1129              	.LASF8:
- 1130 011a 6C6F6E67 		.ascii	"long unsigned int\000"
- 1130      20756E73 
- 1130      69676E65 
- 1130      6420696E 
- 1130      7400
- 1131              	.LASF17:
- 1132 012c 4D454D52 		.ascii	"MEMRMP\000"
- 1132      4D5000
- 1133              	.LASF43:
- 1134 0133 5243435F 		.ascii	"RCC_APB2PeriphResetCmd\000"
- 1134      41504232 
- 1134      50657269 
- 1134      70685265 
- 1134      73657443 
- 1135              	.LASF15:
- 1136 014a 49544D5F 		.ascii	"ITM_RxBuffer\000"
- 1136      52784275 
-ARM GAS  /tmp/ccdlbXrd.s 			page 22
+ 1112      65496E69 
+ 1112      7400
+ 1113              	.LASF30:
+ 1114 00a1 53595343 		.ascii	"SYSCFG_ETH_MediaInterface\000"
+ 1114      46475F45 
+ 1114      54485F4D 
+ 1114      65646961 
+ 1114      496E7465 
+ 1115              	.LASF7:
+ 1116 00bb 5F5F7569 		.ascii	"__uint32_t\000"
+ 1116      6E743332 
+ 1116      5F7400
+ 1117              	.LASF25:
+ 1118 00c6 454E4142 		.ascii	"ENABLE\000"
+ 1118      4C4500
+ 1119              	.LASF31:
+ 1120 00cd 53595343 		.ascii	"SYSCFG_EXTILineConfig\000"
+ 1120      46475F45 
+ 1120      5854494C 
+ 1120      696E6543 
+ 1120      6F6E6669 
+ 1121              	.LASF20:
+ 1122 00e3 434D5043 		.ascii	"CMPCR\000"
+ 1122      5200
+ 1123              	.LASF1:
+ 1124 00e9 756E7369 		.ascii	"unsigned char\000"
+ 1124      676E6564 
+ 1124      20636861 
+ 1124      7200
+ 1125              	.LASF23:
+ 1126 00f7 466C6167 		.ascii	"FlagStatus\000"
+ 1126      53746174 
+ 1126      757300
+ 1127              	.LASF8:
+ 1128 0102 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1128      20756E73 
+ 1128      69676E65 
+ 1128      6420696E 
+ 1128      7400
+ 1129              	.LASF17:
+ 1130 0114 4D454D52 		.ascii	"MEMRMP\000"
+ 1130      4D5000
+ 1131              	.LASF43:
+ 1132 011b 5243435F 		.ascii	"RCC_APB2PeriphResetCmd\000"
+ 1132      41504232 
+ 1132      50657269 
+ 1132      70685265 
+ 1132      73657443 
+ 1133              	.LASF15:
+ 1134 0132 49544D5F 		.ascii	"ITM_RxBuffer\000"
+ 1134      52784275 
+ 1134      66666572 
+ 1134      00
+ 1135              	.LASF33:
+ 1136 013f 45585449 		.ascii	"EXTI_PinSourcex\000"
+ 1136      5F50696E 
+ 1136      536F7572 
+ARM GAS  /tmp/ccxVawJ2.s 			page 22
 
 
- 1136      66666572 
- 1136      00
- 1137              	.LASF33:
- 1138 0157 45585449 		.ascii	"EXTI_PinSourcex\000"
- 1138      5F50696E 
- 1138      536F7572 
- 1138      63657800 
- 1139              	.LASF19:
- 1140 0167 52455345 		.ascii	"RESERVED\000"
- 1140      52564544 
- 1140      00
- 1141              	.LASF18:
- 1142 0170 45585449 		.ascii	"EXTICR\000"
- 1142      435200
- 1143              	.LASF39:
- 1144 0177 474E5520 		.ascii	"GNU C99 7.3.1 20180622 (release) [ARM/embedded-7-br"
- 1144      43393920 
- 1144      372E332E 
- 1144      31203230 
- 1144      31383036 
- 1145 01aa 616E6368 		.ascii	"anch revision 261907] -mcpu=cortex-m4 -mfloat-abi=h"
- 1145      20726576 
- 1145      6973696F 
- 1145      6E203236 
- 1145      31393037 
- 1146 01dd 61726420 		.ascii	"ard -mfpu=fpv4-sp-d16 -mno-thumb-interwork -mthumb "
- 1146      2D6D6670 
- 1146      753D6670 
- 1146      76342D73 
- 1146      702D6431 
- 1147 0210 2D676764 		.ascii	"-ggdb -O2 -std=gnu99 -fomit-frame-pointer -falign-f"
- 1147      62202D4F 
- 1147      32202D73 
- 1147      74643D67 
- 1147      6E753939 
- 1148 0243 756E6374 		.ascii	"unctions=16 -ffunction-sections -fdata-sections -fn"
- 1148      696F6E73 
- 1148      3D313620 
- 1148      2D666675 
- 1148      6E637469 
- 1149 0276 6F2D636F 		.ascii	"o-common -fsingle-precision-constant\000"
- 1149      6D6D6F6E 
- 1149      202D6673 
- 1149      696E676C 
- 1149      652D7072 
- 1150              	.LASF11:
- 1151 029b 756E7369 		.ascii	"unsigned int\000"
- 1151      676E6564 
- 1151      20696E74 
- 1151      00
- 1152              	.LASF22:
- 1153 02a8 52455345 		.ascii	"RESET\000"
- 1153      5400
- 1154              	.LASF10:
- 1155 02ae 6C6F6E67 		.ascii	"long long unsigned int\000"
- 1155      206C6F6E 
- 1155      6720756E 
-ARM GAS  /tmp/ccdlbXrd.s 			page 23
+ 1136      63657800 
+ 1137              	.LASF19:
+ 1138 014f 52455345 		.ascii	"RESERVED\000"
+ 1138      52564544 
+ 1138      00
+ 1139              	.LASF18:
+ 1140 0158 45585449 		.ascii	"EXTICR\000"
+ 1140      435200
+ 1141              	.LASF39:
+ 1142 015f 474E5520 		.ascii	"GNU C99 7.3.1 20180622 (release) [ARM/embedded-7-br"
+ 1142      43393920 
+ 1142      372E332E 
+ 1142      31203230 
+ 1142      31383036 
+ 1143 0192 616E6368 		.ascii	"anch revision 261907] -mcpu=cortex-m4 -mfloat-abi=h"
+ 1143      20726576 
+ 1143      6973696F 
+ 1143      6E203236 
+ 1143      31393037 
+ 1144 01c5 61726420 		.ascii	"ard -mfpu=fpv4-sp-d16 -mno-thumb-interwork -mthumb "
+ 1144      2D6D6670 
+ 1144      753D6670 
+ 1144      76342D73 
+ 1144      702D6431 
+ 1145 01f8 2D676764 		.ascii	"-ggdb -O2 -std=gnu99 -fomit-frame-pointer -falign-f"
+ 1145      62202D4F 
+ 1145      32202D73 
+ 1145      74643D67 
+ 1145      6E753939 
+ 1146 022b 756E6374 		.ascii	"unctions=16 -ffunction-sections -fdata-sections -fn"
+ 1146      696F6E73 
+ 1146      3D313620 
+ 1146      2D666675 
+ 1146      6E637469 
+ 1147 025e 6F2D636F 		.ascii	"o-common -fsingle-precision-constant\000"
+ 1147      6D6D6F6E 
+ 1147      202D6673 
+ 1147      696E676C 
+ 1147      652D7072 
+ 1148              	.LASF11:
+ 1149 0283 756E7369 		.ascii	"unsigned int\000"
+ 1149      676E6564 
+ 1149      20696E74 
+ 1149      00
+ 1150              	.LASF22:
+ 1151 0290 52455345 		.ascii	"RESET\000"
+ 1151      5400
+ 1152              	.LASF10:
+ 1153 0296 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1153      206C6F6E 
+ 1153      6720756E 
+ 1153      7369676E 
+ 1153      65642069 
+ 1154              	.LASF12:
+ 1155 02ad 75696E74 		.ascii	"uint8_t\000"
+ 1155      385F7400 
+ 1156              	.LASF40:
+ARM GAS  /tmp/ccxVawJ2.s 			page 23
 
 
- 1155      7369676E 
- 1155      65642069 
- 1156              	.LASF12:
- 1157 02c5 75696E74 		.ascii	"uint8_t\000"
- 1157      385F7400 
- 1158              	.LASF40:
- 1159 02cd 43686962 		.ascii	"ChibiOS_3.0.2/ext/stdperiph_stm32f4/src/stm32f4xx_s"
- 1159      694F535F 
- 1159      332E302E 
- 1159      322F6578 
- 1159      742F7374 
- 1160 0300 79736366 		.ascii	"yscfg.c\000"
- 1160      672E6300 
- 1161              	.LASF0:
- 1162 0308 7369676E 		.ascii	"signed char\000"
- 1162      65642063 
- 1162      68617200 
- 1163              	.LASF13:
- 1164 0314 696E7433 		.ascii	"int32_t\000"
- 1164      325F7400 
- 1165              	.LASF9:
- 1166 031c 6C6F6E67 		.ascii	"long long int\000"
- 1166      206C6F6E 
- 1166      6720696E 
- 1166      7400
- 1167              	.LASF16:
- 1168 032a 53797374 		.ascii	"SystemCoreClock\000"
- 1168      656D436F 
- 1168      7265436C 
- 1168      6F636B00 
+ 1157 02b5 43686962 		.ascii	"ChibiOS_3.0.2/ext/stdperiph_stm32f4/src/stm32f4xx_s"
+ 1157      694F535F 
+ 1157      332E302E 
+ 1157      322F6578 
+ 1157      742F7374 
+ 1158 02e8 79736366 		.ascii	"yscfg.c\000"
+ 1158      672E6300 
+ 1159              	.LASF0:
+ 1160 02f0 7369676E 		.ascii	"signed char\000"
+ 1160      65642063 
+ 1160      68617200 
+ 1161              	.LASF13:
+ 1162 02fc 696E7433 		.ascii	"int32_t\000"
+ 1162      325F7400 
+ 1163              	.LASF9:
+ 1164 0304 6C6F6E67 		.ascii	"long long int\000"
+ 1164      206C6F6E 
+ 1164      6720696E 
+ 1164      7400
+ 1165              	.LASF16:
+ 1166 0312 53797374 		.ascii	"SystemCoreClock\000"
+ 1166      656D436F 
+ 1166      7265436C 
+ 1166      6F636B00 
+ 1167              	.LASF41:
+ 1168 0322 2F686F6D 		.ascii	"/home/patrick/git_bldc\000"
+ 1168      652F7061 
+ 1168      74726963 
+ 1168      6B2F6769 
+ 1168      745F626C 
  1169              	.LASF37:
- 1170 033a 53595343 		.ascii	"SYSCFG_MemoryRemap\000"
+ 1170 0339 53595343 		.ascii	"SYSCFG_MemoryRemap\000"
  1170      46475F4D 
  1170      656D6F72 
  1170      7952656D 
  1170      617000
  1171              	.LASF2:
- 1172 034d 73686F72 		.ascii	"short int\000"
+ 1172 034c 73686F72 		.ascii	"short int\000"
  1172      7420696E 
  1172      7400
  1173              	.LASF29:
- 1174 0357 4E657753 		.ascii	"NewState\000"
+ 1174 0356 4E657753 		.ascii	"NewState\000"
  1174      74617465 
  1174      00
  1175              	.LASF21:
- 1176 0360 53595343 		.ascii	"SYSCFG_TypeDef\000"
+ 1176 035f 53595343 		.ascii	"SYSCFG_TypeDef\000"
  1176      46475F54 
  1176      79706544 
  1176      656600
  1177              	.LASF32:
- 1178 036f 45585449 		.ascii	"EXTI_PortSourceGPIOx\000"
+ 1178 036e 45585449 		.ascii	"EXTI_PortSourceGPIOx\000"
  1178      5F506F72 
  1178      74536F75 
  1178      72636547 
  1178      50494F78 
  1179              	.LASF14:
- 1180 0384 75696E74 		.ascii	"uint32_t\000"
-ARM GAS  /tmp/ccdlbXrd.s 			page 24
+ 1180 0383 75696E74 		.ascii	"uint32_t\000"
+ARM GAS  /tmp/ccxVawJ2.s 			page 24
 
 
  1180      33325F74 
  1180      00
  1181              	.LASF6:
- 1182 038d 6C6F6E67 		.ascii	"long int\000"
+ 1182 038c 6C6F6E67 		.ascii	"long int\000"
  1182      20696E74 
  1182      00
  1183              	.LASF24:
- 1184 0396 44495341 		.ascii	"DISABLE\000"
+ 1184 0395 44495341 		.ascii	"DISABLE\000"
  1184      424C4500 
  1185              	.LASF34:
- 1186 039e 62697473 		.ascii	"bitstatus\000"
+ 1186 039d 62697473 		.ascii	"bitstatus\000"
  1186      74617475 
  1186      7300
  1187              	.LASF35:
- 1188 03a8 53595343 		.ascii	"SYSCFG_MemorySwappingBank\000"
+ 1188 03a7 53595343 		.ascii	"SYSCFG_MemorySwappingBank\000"
  1188      46475F4D 
  1188      656D6F72 
  1188      79537761 
  1188      7070696E 
  1189              	.LASF36:
- 1190 03c2 53595343 		.ascii	"SYSCFG_MemoryRemapConfig\000"
+ 1190 03c1 53595343 		.ascii	"SYSCFG_MemoryRemapConfig\000"
  1190      46475F4D 
  1190      656D6F72 
  1190      7952656D 
  1190      6170436F 
  1191              		.ident	"GCC: (GNU Tools for Arm Embedded Processors 7-2018-q3-update) 7.3.1 20180622 (release) [AR
-ARM GAS  /tmp/ccdlbXrd.s 			page 25
+ARM GAS  /tmp/ccxVawJ2.s 			page 25
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32f4xx_syscfg.c
-     /tmp/ccdlbXrd.s:18     .text.SYSCFG_DeInit:0000000000000000 $t
-     /tmp/ccdlbXrd.s:26     .text.SYSCFG_DeInit:0000000000000000 SYSCFG_DeInit
-     /tmp/ccdlbXrd.s:57     .text.SYSCFG_MemoryRemapConfig:0000000000000000 $t
-     /tmp/ccdlbXrd.s:65     .text.SYSCFG_MemoryRemapConfig:0000000000000000 SYSCFG_MemoryRemapConfig
-     /tmp/ccdlbXrd.s:81     .text.SYSCFG_MemoryRemapConfig:0000000000000008 $d
-     /tmp/ccdlbXrd.s:86     .text.SYSCFG_MemorySwappingBank:0000000000000000 $t
-     /tmp/ccdlbXrd.s:94     .text.SYSCFG_MemorySwappingBank:0000000000000000 SYSCFG_MemorySwappingBank
-     /tmp/ccdlbXrd.s:110    .text.SYSCFG_MemorySwappingBank:0000000000000008 $d
-     /tmp/ccdlbXrd.s:115    .text.SYSCFG_EXTILineConfig:0000000000000000 $t
-     /tmp/ccdlbXrd.s:123    .text.SYSCFG_EXTILineConfig:0000000000000000 SYSCFG_EXTILineConfig
-     /tmp/ccdlbXrd.s:170    .text.SYSCFG_ETH_MediaInterfaceConfig:0000000000000000 $t
-     /tmp/ccdlbXrd.s:178    .text.SYSCFG_ETH_MediaInterfaceConfig:0000000000000000 SYSCFG_ETH_MediaInterfaceConfig
-     /tmp/ccdlbXrd.s:194    .text.SYSCFG_ETH_MediaInterfaceConfig:0000000000000008 $d
-     /tmp/ccdlbXrd.s:199    .text.SYSCFG_CompensationCellCmd:0000000000000000 $t
-     /tmp/ccdlbXrd.s:207    .text.SYSCFG_CompensationCellCmd:0000000000000000 SYSCFG_CompensationCellCmd
-     /tmp/ccdlbXrd.s:223    .text.SYSCFG_CompensationCellCmd:0000000000000008 $d
-     /tmp/ccdlbXrd.s:228    .text.SYSCFG_GetCompensationCellStatus:0000000000000000 $t
-     /tmp/ccdlbXrd.s:236    .text.SYSCFG_GetCompensationCellStatus:0000000000000000 SYSCFG_GetCompensationCellStatus
-     /tmp/ccdlbXrd.s:255    .text.SYSCFG_GetCompensationCellStatus:000000000000000c $d
+     /tmp/ccxVawJ2.s:18     .text.SYSCFG_DeInit:0000000000000000 $t
+     /tmp/ccxVawJ2.s:26     .text.SYSCFG_DeInit:0000000000000000 SYSCFG_DeInit
+     /tmp/ccxVawJ2.s:57     .text.SYSCFG_MemoryRemapConfig:0000000000000000 $t
+     /tmp/ccxVawJ2.s:65     .text.SYSCFG_MemoryRemapConfig:0000000000000000 SYSCFG_MemoryRemapConfig
+     /tmp/ccxVawJ2.s:81     .text.SYSCFG_MemoryRemapConfig:0000000000000008 $d
+     /tmp/ccxVawJ2.s:86     .text.SYSCFG_MemorySwappingBank:0000000000000000 $t
+     /tmp/ccxVawJ2.s:94     .text.SYSCFG_MemorySwappingBank:0000000000000000 SYSCFG_MemorySwappingBank
+     /tmp/ccxVawJ2.s:110    .text.SYSCFG_MemorySwappingBank:0000000000000008 $d
+     /tmp/ccxVawJ2.s:115    .text.SYSCFG_EXTILineConfig:0000000000000000 $t
+     /tmp/ccxVawJ2.s:123    .text.SYSCFG_EXTILineConfig:0000000000000000 SYSCFG_EXTILineConfig
+     /tmp/ccxVawJ2.s:170    .text.SYSCFG_ETH_MediaInterfaceConfig:0000000000000000 $t
+     /tmp/ccxVawJ2.s:178    .text.SYSCFG_ETH_MediaInterfaceConfig:0000000000000000 SYSCFG_ETH_MediaInterfaceConfig
+     /tmp/ccxVawJ2.s:194    .text.SYSCFG_ETH_MediaInterfaceConfig:0000000000000008 $d
+     /tmp/ccxVawJ2.s:199    .text.SYSCFG_CompensationCellCmd:0000000000000000 $t
+     /tmp/ccxVawJ2.s:207    .text.SYSCFG_CompensationCellCmd:0000000000000000 SYSCFG_CompensationCellCmd
+     /tmp/ccxVawJ2.s:223    .text.SYSCFG_CompensationCellCmd:0000000000000008 $d
+     /tmp/ccxVawJ2.s:228    .text.SYSCFG_GetCompensationCellStatus:0000000000000000 $t
+     /tmp/ccxVawJ2.s:236    .text.SYSCFG_GetCompensationCellStatus:0000000000000000 SYSCFG_GetCompensationCellStatus
+     /tmp/ccxVawJ2.s:255    .text.SYSCFG_GetCompensationCellStatus:000000000000000c $d
 
 UNDEFINED SYMBOLS
 RCC_APB2PeriphResetCmd
