@@ -20,7 +20,7 @@
 /**
  * @brief   PAL setup.
  * @details Digital I/O ports static configuration as defined in @p board.h.
- *          This variable is used by the HAL when initializing the PAL driver..
+ *          This variable is used by the HAL when initializing the PAL driver.
  */
 const PALConfig pal_default_config = {
 #if STM32_HAS_GPIOA
